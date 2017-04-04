@@ -1,0 +1,14 @@
+{
+  "name": "lobbywatch-site",
+  "version": "1.0.0",
+  "description": "Ceci est le site développé dans le cadre du travail de Bachelor 2017. Il a été créé par Hugo Castanheiro. L'objectif de ce site est la visualization des Lobbies et leurs liens avec les parlementaires. Pour cela, une base de donnée a été fournie par le client (Lobbywatch) contenant tous les liens entre les lobbies et les parlementaires. De plus, une extraction des données du Web service de la confédération a été faite afin de démontrer l'influence des lobbies lors des votes des parlementaires.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo Castanheiro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
