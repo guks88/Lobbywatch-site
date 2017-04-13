@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Lobbywatch-site.iml" filepath="$PROJECT_DIR$/.idea/Lobbywatch-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lobbywatch-site.iml" filepath="$PROJECT_DIR$/Lobbywatch-site.iml" />
     </modules>
   </component>
 </project>
