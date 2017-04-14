@@ -55,3 +55,28 @@ app.get('/search_all_branches',function(req,res){
         }
     });
 });
+
+// Get all Lobbies with size
+app.get('/search_all_lobbies_size',function(req,res){
+    connection.query("SELECT * FROM BD_TB.tailledeslobbies;", function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// Get All members of lobbies with their political parties
+app.post('/search_all_lobbies_members_parties',function(req,res){
+    connection.query("SELECT id, name_fr, name, abkuerzung_fr FROM BD_TB.parlementairesparlobbyavecparti;", function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+            console.log(JSON.stringify(rows));
+        }
+    });
+});

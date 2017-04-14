@@ -11,6 +11,10 @@
         <!-- Theme CSS -->
         <link href="../css/freelancer.css" rel="stylesheet">
 
+        <!-- Datatables CSS -->
+        <link href="../css/jquery.dataTables.css" rel="stylesheet">
+        <link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+
         <!-- Custom Fonts -->
         <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -32,6 +36,15 @@
 
         <!-- Queries Script -->
         <script src="../js/queries_script_lobbies.js"></script>
+
+        <!-- Vega & Vega-lite Script -->
+        <script src="https://vega.github.io/vega/assets/promise.min.js"></script>
+        <script src="https://vega.github.io/vega/vega.js"></script>
+        <script src="../js/vega_script_Lobbies.js"></script>
+
+        <!-- Datatables JavaScript -->
+        <script src="../js/datatable_script_Lobbies.js"></script>
+        <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 
     </head>
     <body id="page-top" class="index">
@@ -85,14 +98,26 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="row">
-                        <select class="lobby_select"></select>
+                        <select class="lobby_select">
+                        </select>
                     </div>
                     <div class="row">
-                        <h1>Graphique</h1>
+                        <div id="bar-chart" class="view" style="margin-top: 2%">
+                            <canvas width="950" height="786" class="marks" style="width: 100%; height: 383px;"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <h1>Datatable.js</h1>
+                    <table id="myTable">
+                        <thead>
+                        <tr>
+
+                            <th>Lobby</th>
+                            <th>Membre</th>
+                            <th>Parti politique</th>
+                        </tr>
+                        </thead>
+                    </table>
                 </div>
             </div>
         </header>

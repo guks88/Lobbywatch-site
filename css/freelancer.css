@@ -3,6 +3,15 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 2%;
+}
+
 body, html {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -129,9 +138,6 @@ header .intro-text .skills {
   border: none;
 }
 
-MY-APP{
-
-}
 .navbar-custom .navbar-brand {
   color: #74d7ff;
 }
@@ -268,6 +274,7 @@ section.success {
     margin: 0 0 30px;
   }
 }
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -563,6 +570,62 @@ select {
   border-color: white;
 }
 
+/* Embedded Vega examples. */
+.view > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.view .marks {
+  margin-right: 1em;
+}
+.view .vega-bindings {
+  font-size: 14px;
+  line-height: 20px;
+}
+.view .vega-bind-name {
+  display: inline-block;
+  width: 105px;
+}
+.view .vega-bind input[type="range"] {
+  padding: 0;
+  width: 100px;
+}
+.view .vega-bind select {
+  max-width: 200px;
+}
+.view .vega-bind label {
+  margin-left: 4px;
+}
+.view .vega-bind-radio label {
+  margin-left: 0;
+  margin-right: 4px;
+}
+.embed > a {
+  visibility: hidden;
+  font-size: 14px;
+  margin-right: 0.5em;
+}
+.embed:hover > a {
+  visibility: visible;
+}
+.example .embed > a {
+  display: none;
+}
+.example .view > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.example .view .vega-bindings {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin-top: -20px;
+}
 
 
 
