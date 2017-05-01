@@ -1,8 +1,11 @@
-var dataTablesLobbiesInit = function() {
+/**
+ * Created by HugoCastanheiro on 01.05.17.
+ */
+var dataTablesBranchesInit = function() {
     var data = {};
     data.selected = 0;
     $.ajax({
-        url: "/search_all_lobbies_members_parties",
+        url: "/search_all_branches_members_parties",
         method: 'get',
         dataType: 'json',
         data: data,
@@ -11,7 +14,7 @@ var dataTablesLobbiesInit = function() {
                 data: result,
                 columns:    [
                     //{'data': 'id'},
-                    {'data': 'lobbies'},
+                    {'data': 'branches'},
                     {'data': 'parlementaires'},
                     {'data': 'groupe_politique'},
                     {'data': 'parti_politique'},
@@ -20,11 +23,11 @@ var dataTablesLobbiesInit = function() {
         }
     });
 }
-var dataTableLobbiesUpdate = function(data) {
+var dataTableBranchesUpdate = function(data) {
     var dataTable = $('#myTable').DataTable();
     dataTable.clear();
     $.ajax({
-        url: "/search_all_lobbies_members_parties",
+        url: "/search_all_branches_members_parties",
         method: 'get',
         dataType: 'json',
         data: data,

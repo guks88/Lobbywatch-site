@@ -1,34 +1,30 @@
 $(document).ready(function() {
-    // All names of Lobbies on dropdown list
-    var select = $(".lobby_select");
-    if (select.length > 0) {
-        select.append("<option value='0'>Tous les lobbies</option>");
-        $.ajax({url: "/search_all_lobbies", dataType: 'json', success: function(result){
-            $.each(result, function() {
-                select.append("<option value='"+this.id+"'>"+this.name_fr+"</option>");
-            });
-        }});
-    }else{
-        console.log("No data in DB");
-    }
-});
+    // init dataTables for Lobbies
+    dataTablesLobbiesInit();
 
-$(document).ready(function() {
-   var selected = $(".lobby_select").val();
-    if(selected == 0){
-        return;
-    }else{
-        $.ajax({url: "/search_all_lobbies_members_parties",method: 'post', dataType: 'json', success: function(result){
-            console.log(result);
-            $('#myTable').dataTable({
-                data: result,
-                columns:    [
-                    //{'data': 'id'},
-                    {'data': 'name_fr'},
-                    {'data': 'name'},
-                    {'data': 'abkuerzung_fr'},
-                ]
-            });
-        }});
-    }
+    // All names of Lobbies on dropdown list
+    var select = $("#select_lobbies");
+    $.ajax({url: "/search_all_lobbies", dataType: 'json', success: function(result){
+        if(result != null){
+            select.append('<option value="0">Tous les lobbies</option>');
+        }
+        $.each(result, function() {
+            select.append('<option value="'+this.id+'">'+this.name_fr+'</option>');
+        });
+        select.select2();
+
+        var parentElement = $(".select2-dropdown--above");
+        $(".js-example-basic-single").select2({
+            dropdownParent: parentElement
+        });
+    }});
+
+    // lobbies select changed
+    select.change(function() {
+        var selected = $(this).val();
+        var data = {};
+        data.selected = selected;
+        // update datatables
+        dataTableLobbiesUpdate(data);
+    });
 });

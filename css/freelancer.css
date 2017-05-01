@@ -562,14 +562,6 @@ div#maincontent {
   height: 100%;
 }
 
-select {
-  width: 80%;
-  padding: 16px 20px;
-  border: solid;
-  background-color: #18bc9c;
-  border-color: white;
-}
-
 /* Embedded Vega examples. */
 .view > * {
   display: inline-block;
@@ -619,13 +611,23 @@ select {
   margin-top: 1em;
 }
 
-label {
+.custom-combobox {
+  position: relative;
   display: inline-block;
-  max-width: 100%;
-  margin-bottom: 5px;
-  font-weight: 700;
-  margin-top: -20px;
 }
-
+.custom-combobox-toggle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-left: -1px;
+  padding: 0;
+}
+.custom-combobox-input {
+  margin: 0;
+  padding: 5px 10px;
+}
+.col-lg-12.Table {
+  text-align: start;
+}
 
 
