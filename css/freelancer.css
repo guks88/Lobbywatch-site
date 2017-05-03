@@ -631,3 +631,23 @@ div#maincontent {
 }
 
 
+.example .view > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.view .marks {
+  margin-right: 1em;
+}
+.example .view .vega-bindings {
+  margin-top: 1em;
+}
+.example .view > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.view .vega-bindings {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+

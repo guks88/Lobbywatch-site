@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://vega.github.io/vega/vega.js"></script>
+
+    </head>
+    <body>
+        <div class="fill">
+                <div class="embed">
+                    <div id="circle_packing"></div>
+                </div>
+                <script>
+                    var spec = {
+                                "$schema": "https://vega.github.io/schema/vega/v3.0.json",
+                                "width": 600,
+                                "height": 600,
+                                "padding": 5,
+                                "autosize": "none",
+
+                                "data": [
+                                    {
+                                        "name": "tree",
+                                        "url": "../data/flare.json",
+                                        "transform": [
+                                            {
+                                                "type": "stratify",
+                                                "key": "id",
+                                                "parentKey": "parent"
+                                            },
+                                            {
+                                                "type": "pack",
+                                                "field": "size",
+                                                "sort": {"field": "value"},
+                                                "size": [{"signal": "width"}, {"signal": "height"}]
+                                            }
+                                        ]
+                                    }
+                                ],
+
+                                "scales": [
+                                    {
+                                        "name": "color",
+                                        "type": "ordinal",
+                                        "range": {"scheme": "category20"}
+                                    }
+                                ],
+
+                                "marks": [
+                                    {
+                                        "type": "symbol",
+                                        "from": {"data": "tree"},
+                                        "encode": {
+                                            "enter": {
+                                                "shape": {"value": "circle"},
+                                                "fill": {"scale": "color", "field": "depth"},
+                                                "tooltip": {"signal": "datum.name + (datum.size ? ', ' + datum.size + ' bytes' : '')"}
+                                            },
+                                            "update": {
+                                                "x": {"field": "x"},
+                                                "y": {"field": "y"},
+                                                "size": {"signal": "4 * datum.r * datum.r"},
+                                                "stroke": {"value": "white"},
+                                                "strokeWidth": {"value": 0.5}
+                                            },
+                                            "hover": {
+                                                "stroke": {"value": "red"},
+                                                "strokeWidth": {"value": 2}
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                            ;
+
+                    var view = new vega.View(vega.parse(spec), {
+                        loader: vega.loader({baseURL: ''}),
+                        logLevel: vega.Warn,
+                        renderer: 'canvas'
+                    }).initialize('#circle_packing').hover().run();
+            </script>
+        </div>
+        <footer>
+        </footer>
+    </body>
+</html>

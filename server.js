@@ -63,11 +63,12 @@ app.get('/search_all_lobbies_size',function(req,res){
     if (selected != 0) {
         where_query = 'WHERE ID = "'+selected+'"';
     }
-    var query = "SELECT id, lobbies as category, nombreMembre as value FROM BD_TB.tailleslobbies "+where_query+";";
+    var query = "SELECT id, name, size, parent FROM BD_TB.viewforvegalobbies "+where_query+"ORDER BY parent;";
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_all_lobbies_size');
         }else{
+            rows.unshift({"id": 1, "name":"Lobbies"});
             console.log('Success query!\n');
             res.end(JSON.stringify(rows));
         }
@@ -99,11 +100,13 @@ app.get('/search_all_branches_size',function(req,res){
     if (selected != 0) {
         where_query = 'WHERE ID = "'+selected+'"';
     }
-    var query = "SELECT id, branches as category, nombreMembre as value FROM BD_TB.taillesbranches "+where_query+";";
+    var query = "SELECT id+1 AS id, branches AS name, 1 AS parent, nombreMembre AS size FROM BD_TB.taillesbranches "+where_query+";";
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_all_ branches_size');
         }else{
+            rows.unshift({"id": 1, "name":"Branches"});
+            console.log(rows);
             console.log('Success query!\n');
             res.end(JSON.stringify(rows));
         }
@@ -121,6 +124,18 @@ app.get('/search_all_branches_members_parties',function(req,res){
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_all_branches_members_parties');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// Get all Votes
+app.get('/search_all_votes',function(req,res){
+    connection.query("SELECT date, affairId, affairVoteId, affairTitle, submissionText, meaningYes, meaningNo FROM BD_TB.votes GROUP BY affairVoteId;;", function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : search_all_votes');
         }else{
             console.log('Success query!\n');
             res.end(JSON.stringify(rows));

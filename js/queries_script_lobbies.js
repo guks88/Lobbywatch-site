@@ -12,11 +12,6 @@ $(document).ready(function() {
             select.append('<option value="'+this.id+'">'+this.name_fr+'</option>');
         });
         select.select2();
-
-        var parentElement = $(".select2-dropdown--above");
-        $(".js-example-basic-single").select2({
-            dropdownParent: parentElement
-        });
     }});
 
     // lobbies select changed
