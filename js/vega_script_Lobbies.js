@@ -10,7 +10,7 @@ $(document).ready(function() {
                 {
                     "name": "tree",
                     "url": "/search_all_lobbies_size?selected=0",
-                    //"url": "../data/lobbies.json",
+                    //"url": "../data/lobbiestest.json",
                     "transform": [
                         {
                             "type": "stratify",
@@ -34,6 +34,9 @@ $(document).ready(function() {
                     "range": {"scheme": "category20"}
                 }
             ],
+          "legends": [
+              {"orient": "top-left", "fill": "color", "offset": 0, "zindex": 1}
+          ],
 
             "marks": [
                 {
@@ -42,7 +45,7 @@ $(document).ready(function() {
                     "encode": {
                         "enter": {
                             "shape": {"value": "circle"},
-                            "fill": {"scale": "color", "field": "depth"},
+                            "fill": {"scale": "color", "field": "parent"},
                             "tooltip": {"signal": "datum.name + (datum.size ? ', ' + datum.size + ' membres' : '')"}
                         },
                         "update": {
@@ -50,7 +53,7 @@ $(document).ready(function() {
                             "y": {"field": "y"},
                             "size": {"signal": "4 * datum.r * datum.r"},
                             "stroke": {"value": "white"},
-                            "strokeWidth": {"value": 1}
+                            "strokeWidth": {"value": 0.5}
                         },
                         "hover": {
                             "stroke": {"value": "black"},

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://vega.github.io/vega/assets/main.css">
+    <script src="https://vega.github.io/vega/vega.js"></script>
+</head>
+<body>
+<div class="example">
+    <div class="embed">
+        <div id="stacked-bar-chart" class="view"></div>
+    </div>
+    <script>
+        var spec =
+        {
+            "$schema": "https://vega.github.io/schema/vega/v3.0.json",
+            "width": 1,
+            "height": 1,
+            "padding": "auto",
+            "data": [
+                {
+                    "name": "source",
+                    "values": [
+                        {"name": "Moyenne","vote": "white","nbr": 20},
+                        {"name": "Moyenne","vote": "yes","nbr": 40},
+                        {"name": "Moyenne","vote": "no","nbr": 40}
+                    ]
+                },
+                {
+                    "name": "summary",
+                    "source": "source",
+                    "transform": [
+                        {
+                            "type": "aggregate",
+                            "groupby": ["name","vote"],
+                            "summarize": {"nbr": ["sum"]}
+                        }
+                    ]
+                },
+                {
+                    "name": "stacked_scale",
+                    "source": "summary",
+                    "transform": [
+                        {
+                            "type": "aggregate",
+                            "summarize": [{"ops": ["sum"],"field": "sum_nbr"}],
+                            "groupby": ["name"]
+                        }
+                    ]
+                },
+                {
+                    "name": "layout",
+                    "source": "summary",
+                    "transform": [
+                        {
+                            "type": "aggregate",
+                            "summarize": [{"field": "name","ops": ["distinct"]}]
+                        }
+                    ]
+                }
+            ],
+            "marks": [
+                {
+                    "name": "root",
+                    "type": "group",
+                    "from": {"data": "layout"},
+                    "properties": {
+                        "update": {
+                            "width": {"field": "width"},
+                            "height": {"field": "height"}
+                        }
+                    },
+                    "marks": [
+                        {
+                            "name": "marks",
+                            "type": "rect",
+                            "from": {
+                                "data": "summary",
+                                "transform": [
+                                    {
+                                        "type": "stack",
+                                        "groupby": ["name"],
+                                        "field": "sum_nbr",
+                                        "sortby": ["-vote"],
+                                        "output": {
+                                            "start": "sum_nbr_start",
+                                            "end": "sum_nbr_end"
+                                        },
+                                        "offset": "normalize"
+                                    }
+                                ]
+                            },
+                            "properties": {
+                                "update": {
+                                    "x": {"scale": "x","field": "sum_nbr_start"},
+                                    "x2": {"scale": "x","field": "sum_nbr_end"},
+                                    "yc": {"scale": "y","field": "name"},
+                                    "height": {"value": 50},
+                                    "fill": {"scale": "color","field": "vote"},
+                                    "stroke": {"scale": "colorStroke","field": "vote"},
+                                    "strokeWidth": {"value": 2}
+                                }
+                            }
+                        }
+                    ],
+                    "scales": [
+                        {
+                            "name": "x",
+                            "type": "linear",
+                            "domain": [0,1],
+                            "rangeMin": 0,
+                            "rangeMax": 500,
+                            "round": true,
+                            "nice": true,
+                            "zero": true
+                        },
+                        {
+                            "name": "y",
+                            "type": "ordinal",
+                            "domain": {"data": "summary","field": "name","sort": true},
+                            "padding": 1
+                        },
+                        {
+                            "name": "color",
+                            "type": "ordinal",
+                            "domain": {"data": "summary","field": "vote","sort": true},
+                            "range": ["#FF0000","#FFFFFF","#008000"]
+                        },
+                        {
+                            "name": "colorStroke",
+                            "type": "ordinal",
+                            "domain": {"data": "source","field": "vote"},
+                            "range": ["#000000"]
+                        }
+                    ],
+                    "axes": [{"type": "y","scale": "y"}],
+                    "legends": [
+                        {
+                            "fill": "color",
+                            "title": "vote",
+                            "orient": "left",
+                            "properties": {
+                                "symbols": {
+                                    "shape": {"value": "circle"},
+                                    "strokeWidth": {"value": 1}
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        };
+
+        var view = new vega.View(vega.parse(spec), {
+            loader: vega.loader({baseURL: 'https://vega.github.io/vega/'}),
+            logLevel: vega.Warn,
+            renderer: 'canvas'
+        }).initialize('#stacked-bar-chart').hover().run();
+    </script>
+</div>
+</body>
+</html>

@@ -45,7 +45,7 @@ $(document).ready(function() {
                 "encode": {
                     "enter": {
                         "shape": {"value": "circle"},
-                        "fill": {"scale": "color", "field": "depth"},
+                        "fill": {"scale": "color", "field": "id"},
                         "tooltip": {"signal": "datum.name + (datum.size ? ', ' + datum.size + ' membres' : '')"}
                     },
                     "update": {

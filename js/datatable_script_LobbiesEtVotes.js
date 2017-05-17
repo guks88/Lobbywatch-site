@@ -1,28 +1,31 @@
-var dataTablesLobbiesEtVotesInit = function() {
+var dataTablesLobbiesEtVotesInit = function(){
     var data = {};
     data.selected = 0;
     $.ajax({
-        url: "/search_all_votes",
+        url: "/search_all_votes_selected_changed",
         method: 'get',
         dataType: 'json',
         data: data,
         success: function(result){
             $('#myTable').dataTable({
                 data: result,
-                columns:    [
-                    //{'data': 'id'},
+                columns:[
+                    //{'data': 'affairId', sClass: "hidden"},
+                    {'data': 'affairTitle', sClass: "clickable"},
                     {'data': 'date'},
-                    {'data': 'affairTitle'},
+                    {'data': 'affairVoteId', sClass: "hidden"},
                 ]
             });
+            dataTablesOnClick();
         }
     });
 }
+
 var dataTablesLobbiesEtVotesUpdate = function(data) {
     var dataTable = $('#myTable').DataTable();
     dataTable.clear();
     $.ajax({
-        url: "/search_all_votes",
+        url: "/search_all_votes_selected_changed",
         method: 'get',
         dataType: 'json',
         data: data,
@@ -32,5 +35,14 @@ var dataTablesLobbiesEtVotesUpdate = function(data) {
             dataTable.draw();
         }
     });
+};
 
+// select the vote in datatable
+var dataTablesOnClick = function(){
+    var dataTable = $('#myTable').DataTable();
+    var affairVoteId;
+    $('#myTable tbody').on( 'click', 'tr', function () {
+        affairVoteId = dataTable.row( $(this) ).data().affairVoteId;
+        displayInfo(affairVoteId);
+    });
 };

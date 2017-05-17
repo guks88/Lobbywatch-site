@@ -649,5 +649,41 @@ div#maincontent {
   font-size: 14px;
   line-height: 20px;
 }
+.hidden {
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+}
+.modal {
+  display:    none;
+  position:   fixed;
+  z-index:    1000;
+  top:        0;
+  left:       0;
+  height:     100%;
+  width:      100%;
+  background: rgba( 255, 255, 255, .8 )
+  url('http://i.stack.imgur.com/FhHRx.gif')
+  50% 50%
+  no-repeat;
+  opacity: 0.80;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 80);
+  filter: alpha(opacity = 80)
+}
+
+.Infos {
+  width: 80%;
+}
+
+.btns {
+  background-color: #18BC9C;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  width: 300px;
+}
 
 

@@ -106,7 +106,6 @@ app.get('/search_all_branches_size',function(req,res){
             console.log('Error in the query : search_all_ branches_size');
         }else{
             rows.unshift({"id": 1, "name":"Branches"});
-            console.log(rows);
             console.log('Success query!\n');
             res.end(JSON.stringify(rows));
         }
@@ -133,9 +132,46 @@ app.get('/search_all_branches_members_parties',function(req,res){
 
 // Get all Votes
 app.get('/search_all_votes',function(req,res){
-    connection.query("SELECT date, affairId, affairVoteId, affairTitle, submissionText, meaningYes, meaningNo FROM BD_TB.votes GROUP BY affairVoteId;;", function (error, rows, fields) {
+    connection.query("SELECT concat(date) as date, affairId, affairTitle FROM voteslobbiesdatatable ORDER BY affairTitle;",
+        function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_all_votes');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// Get All votes by selected changed
+app.get('/search_all_votes_selected_changed',function(req,res){
+    var selected = req.query.selected;
+    var where_query = '';
+    if (selected != 0) {
+        where_query = 'WHERE affairId = "'+selected+'"';
+    }
+    var query = "SELECT concat(date) as date, affairId, affairTitle, affairVoteId FROM voteslobbiesdatatable "+where_query+" ORDER BY affairTitle;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : search_all_votes_selected_changed');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// Get the vote selected
+app.get('/search_vote_selected',  function(req,res){
+    var affairVoteId = req.query.affairVoteId;
+    var where_query = '';
+    if (affairVoteId != 0) {
+        where_query = 'WHERE affairVoteId = "'+affairVoteId+'"';
+    }
+    var query = "SELECT votes.affairId, votes.affairTitle, votes.meaningYes, votes.meaningNo, votes.affairVoteId FROM votes "+where_query+"  LIMIT 1;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : search_vote_selected');
         }else{
             console.log('Success query!\n');
             res.end(JSON.stringify(rows));

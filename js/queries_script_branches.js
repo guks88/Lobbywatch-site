@@ -1,5 +1,12 @@
 // All Branches
 $(document).ready(function() {
+    // loading gif
+    $(document).ajaxStart(function(){
+        $('#loading').show();
+    }).ajaxStop(function(){
+        $('#loading').hide();
+    });
+
     // init dataTables for Branches
     dataTablesBranchesInit();
 
