@@ -63,16 +63,21 @@ var displayInfo = function(affairVoteId) {
                 $('.rowInfos').append('<strong>Signification du oui :</strong><p style="text-align: center">' + this.meaningYes + '</p>');
                 $('.rowInfos').append('<strong>Signification du non :</strong><p style="text-align: center">' + this.meaningNo + '</p>');
             });
-        }});
+        }
+    });
     $('#infos').removeClass("hidden");
 
     $('#btnNewSearch').removeClass("hidden");
 
     $('#moyenneChart').removeClass("hidden");
 
-    initVegaMoyenne();
+    initVegaMoyenne(affairVoteId);
+
+    initVegaMoyenneLobbies(affairVoteId);
 };
 
+// reload the page
 var onClick = function(){
     window.location.reload();
 };
+

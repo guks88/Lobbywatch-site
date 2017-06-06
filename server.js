@@ -132,7 +132,7 @@ app.get('/search_all_branches_members_parties',function(req,res){
 
 // Get all Votes
 app.get('/search_all_votes',function(req,res){
-    connection.query("SELECT concat(date) as date, affairId, affairTitle FROM voteslobbiesdatatable ORDER BY affairTitle;",
+    connection.query("SELECT concat(date) as date, affairId, affairTitle FROM voteslobbiesdatatable GROUP BY affairTitle ORDER BY affairTitle;",
         function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_all_votes');
@@ -148,9 +148,10 @@ app.get('/search_all_votes_selected_changed',function(req,res){
     var selected = req.query.selected;
     var where_query = '';
     if (selected != 0) {
-        where_query = 'WHERE affairId = "'+selected+'"';
+        where_query = 'AND voteslobbiesdatatable.affairId = "'+selected+'"';
     }
-    var query = "SELECT concat(date) as date, affairId, affairTitle, affairVoteId FROM voteslobbiesdatatable "+where_query+" ORDER BY affairTitle;";
+    var query = "SELECT concat(voteslobbiesdatatable.date) as date, voteslobbiesdatatable.affairId, voteslobbiesdatatable.affairTitle, voteslobbiesdatatable.affairVoteId, votes.meaningYes, votes.meaningNo FROM voteslobbiesdatatable, votes WHERE voteslobbiesdatatable.affairVoteId = votes.affairVoteId "+where_query+" GROUP BY affairVoteId ORDER BY affairTitle;";
+
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_all_votes_selected_changed');
@@ -172,6 +173,99 @@ app.get('/search_vote_selected',  function(req,res){
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_vote_selected');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the general average of a vote
+app.get('/get_average_vote', function (req,res) {
+    var affairVoteId = req.query.affairVoteId;
+    var where_query = '';
+    if (affairVoteId != 0) {
+        where_query = 'WHERE affairVoteId = "'+affairVoteId+'"';
+    }
+    var query = "SELECT (SELECT count(councillorVote) FROM votes "+where_query+" AND councillorVote = 'Yes') AS nbreOui, (SELECT count(councillorVote) FROM votes "+where_query+" AND councillorVote = 'No') AS nbreNon, (SELECT count(councillorVote) FROM votes "+where_query+" AND (councillorVote = 'EH' OR councillorVote = 'ES' OR councillorVote = 'NT' OR councillorVote = 'P')) AS nbreBlanc;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_vote');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the average of a vote for every lobbies
+app.get('/get_average_vote_of_lobby', function (req,res) {
+    var affairVoteId = req.query.affairVoteId;
+    var where_query = '';
+    if (affairVoteId != 0) {
+        where_query = 'WHERE affairVoteId = "'+affairVoteId+'"';
+    }
+    var query = "SELECT count(councillorNumber) as nbreVote, lobbies, councillorVote as vote FROM votes_infos "+where_query+" GROUP BY lobbyId, councillorVote;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_vote_of_lobby');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the average of a vote for every branches
+app.get('/get_average_vote_of_branche', function (req,res) {
+    var affairVoteId = req.query.affairVoteId;
+    var where_query = '';
+    if (affairVoteId != 0) {
+        where_query = 'WHERE affairVoteId = "'+affairVoteId+'"';
+    }
+    var query = "SELECT count(councillorNumber) as nbreVote, branches, councillorVote as vote FROM votes_infos_branches "+where_query+" GROUP BY brancheId, councillorVote;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_vote_of_branche');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the average of a vote for selected branche
+app.get('/get_average_vote_of_branche_selected', function (req,res) {
+    var affairVoteId = req.query.affairVoteId;
+    var brancheSelected = req.query.selected;
+    var where_query = '';
+    if (affairVoteId != 0 && brancheSelected != 0) {
+        where_query = 'WHERE affairVoteId = "'+affairVoteId+'" AND brancheId = "'+brancheSelected+'"';
+    }
+    var query = "SELECT count(councillorNumber) as nbreVote, branches, councillorVote as vote FROM votes_infos_branches "+where_query+" GROUP BY brancheId, councillorVote;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_vote_of_branche_selected');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+
+// GET the votes of parlamentarians of a vote for selected branche
+app.get('/get_infos_vote_of_branche_selected', function (req,res) {
+    var affairVoteId = req.query.affairVoteId;
+    var brancheSelected = req.query.selected;
+    var where_query = '';
+    if (affairVoteId != 0) {
+        where_query = 'WHERE affairVoteId = "'+affairVoteId+'" AND brancheId = "'+brancheSelected+'"';
+    }
+    var query = "SELECT parlementaires, councillorVote as votes FROM BD_TB.votes_infos_branches "+where_query+" ORDER BY votes;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_infos_vote_of_branche_selected');
         }else{
             console.log('Success query!\n');
             res.end(JSON.stringify(rows));

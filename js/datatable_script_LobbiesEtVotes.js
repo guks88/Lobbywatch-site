@@ -12,6 +12,8 @@ var dataTablesLobbiesEtVotesInit = function(){
                 columns:[
                     //{'data': 'affairId', sClass: "hidden"},
                     {'data': 'affairTitle', sClass: "clickable"},
+                    {'data': 'meaningYes'},
+                    {'data': 'meaningNo'},
                     {'data': 'date'},
                     {'data': 'affairVoteId', sClass: "hidden"},
                 ]

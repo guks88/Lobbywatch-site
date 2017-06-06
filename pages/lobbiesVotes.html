@@ -48,7 +48,8 @@
     <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js" type="text/javascript"></script>
 
     <!-- Vega & Vega-lite JavaScript -->
-    <script src="../js/vega_script_LobbiesEtVotes.js" type="text/javascript"></script>
+    <script src="../js/vega_script_LobbiesEtVotes_General.js" type="text/javascript"></script>
+    <script src="../js/vega_script_LobbiesEtVotes_AVGLobby.js" type="text/javascript"></script>
     <script src="https://vega.github.io/vega/vega.js" type="text/javascript"></script>
 
 </head>
@@ -119,16 +120,58 @@
                 <thead>
                 <tr>
                     <th>Titre de l'affaire</th>
-                    <th>Date</th>
+                    <th>Signification du oui</th>
+                    <th>Signification du non</th>
+                    <th class="date">Date</th>
                     <th>ID du vote</th>
                 </tr>
                 </thead>
             </table>
         </div>
         <div id="moyenneChart" class="col-lg-12 hidden">
-            <div class="fill">
-                <div class="embed">
+            <div style="padding-left: 41%">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td><strong>VOTES EN % :</strong></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Oui</td>
+                        <td>Blanc</td>
+                        <td>Non</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../css/images/circleYes.png"></td>
+                        <td><img src="../css/images/circleWhite.png"></td>
+                        <td><img src="../css/images/circleNo.png"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div style="border-style: solid; border-color: #ffffff; margin-left: 10%; margin-right: 10%">
+                    <p style="text-align: center">Moyenne générale sur tous les lobbies</p>
                     <div id="moyenne_chart" class="view"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 hidden" id="uneColonne">
+                    <div style="border-style: solid; border-color: #ffffff; margin-left: 10%; margin-right: 10%">
+                        <p id="moyenneTous"style="text-align: center"></p>
+                        <div id="moyenne_chart_lobbies" class="view"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hidden" id="colonneUn">
+                    <div style="border-style: solid; border-color: #ffffff; margin-left: 10%; margin-right: 10%">
+                        <p style="text-align: center">Lobbies du oui</p>
+                        <div id="moyenne_chart_lobbies_Oui" class="view"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hidden" id="colonneDeux">
+                    <div style="border-style: solid; border-color: #ffffff; margin-left: 10%; margin-right: 10%">
+                        <p style="text-align: center">Lobbies du non</p>
+                        <div id="moyenne_chart_lobbies_Non" class="view"></div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -34,7 +34,8 @@ $(document).ready(function() {
             {
                 "name": "color",
                 "type": "ordinal",
-                "range": {"scheme": "category20"}
+                "domain": {"data": "tree","field": "parent"},
+                "range": [ "#18bc9c", "#18bc9c", "#F44336", "#EF9A9A", "#00BCD4", "#009688", "#CDDC39", "#C6FF00", "#4CAF50", "#6200EA", "#FFC107","#2196F3", "#795548", "#1DE9B6", "#81C784", "#FF8F00"]
             }
         ],
 
@@ -53,7 +54,7 @@ $(document).ready(function() {
                         "y": {"field": "y"},
                         "size": {"signal": "4 * datum.r * datum.r"},
                         "stroke": {"value": "white"},
-                        "strokeWidth": {"value": 1}
+                        "strokeWidth": {"value": 0}
                     },
                     "hover": {
                         "stroke": {"value": "black"},

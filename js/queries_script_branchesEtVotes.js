@@ -6,11 +6,11 @@ $(document).ready(function() {
         $('#loading').hide();
     });
 
-    // init dataTables for Lobbies
-    dataTablesLobbiesEtVotesInit();
+    // init dataTables for branches
+    dataTablesBranchesEtVotesInit();
 
     // All votes on dropdown list
-    var select = $("#select_lobbiesVotes");
+    var select = $("#select_branchesVotes");
     $.ajax({url: "/search_all_votes", dataType: 'json', success: function(result){
         if(result != null){
             select.append('<option value="0">Tous les votes</option>');
@@ -27,7 +27,7 @@ $(document).ready(function() {
         var data = {};
         data.selected = selected;
         // update datatables
-        dataTablesLobbiesEtVotesUpdate(data);
+        dataTablesBranchesEtVotesUpdate(data);
     });
 });
 
@@ -36,20 +36,20 @@ var displayInfo = function(affairVoteId) {
     $(".rowSelectLobbies").addClass("hidden");
     $(".Table").addClass("hidden");
 
-    var select = $("#select_lobbies");
+    var select = $("#select_branches");
     $.ajax({
-        url: "/search_all_lobbies",
+        url: "/search_all_branches",
         dataType: 'json',
         success: function(result){
             if(result != null){
-                select.append('<option value="0">Tous les lobbies</option>');
+                select.append('<option value="0">Toutes les branches</option>');
             }
             $.each(result, function() {
                 select.append('<option value="' + this.id + '">' + this.name_fr + '</option>');
             });
             select.select2();
         }});
-    $('.rowLobbies').removeClass("hidden");
+    $('.rowBranches').removeClass("hidden");
 
     var affairVoteId = affairVoteId;
     $.ajax({
@@ -70,7 +70,20 @@ var displayInfo = function(affairVoteId) {
 
     $('#moyenneChart').removeClass("hidden");
 
-    initVegaMoyenne();
+    initVegaMoyenneBranche(affairVoteId);
+
+    initVegaMoyenneBranches(affairVoteId);
+
+    dataTablesBranchesEtVotesSelected(affairVoteId);
+
+    // votes select changed
+    select.change(function() {
+        var selected = $(this).val();
+        // update chart
+        chartBranchesEtVotesUpdate(affairVoteId, selected);
+        dataTablesBranchesEtVotesUpdateSelected(affairVoteId, selected);
+    });
+
 };
 
 var onClick = function(){

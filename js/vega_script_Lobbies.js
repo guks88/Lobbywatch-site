@@ -26,18 +26,14 @@ $(document).ready(function() {
                     ]
                 }
             ],
-
             "scales": [
                 {
                     "name": "color",
                     "type": "ordinal",
-                    "range": {"scheme": "category20"}
-                }
+                    "domain": {"data": "tree","field": "parent"},
+                    "range": [ "#18bc9c", "#FFFFFF", "#2196F3", "#1DE9B6", "#CDDC39", "#C6FF00", "#FF8F00", "#4CAF50", "#00BCD4", "#009688", "#6200EA", "#FFC107", "#F44336", "#795548", "#81C784", "#EF9A9A"]
+                },
             ],
-          "legends": [
-              {"orient": "top-left", "fill": "color", "offset": 0, "zindex": 1}
-          ],
-
             "marks": [
                 {
                     "type": "symbol",
@@ -53,12 +49,12 @@ $(document).ready(function() {
                             "y": {"field": "y"},
                             "size": {"signal": "4 * datum.r * datum.r"},
                             "stroke": {"value": "white"},
-                            "strokeWidth": {"value": 0.5}
+                            "strokeWidth": {"value": 0}
                         },
                         "hover": {
                             "stroke": {"value": "black"},
                             "strokeWidth": {"value": 2}
-                        }
+                        },
                     }
                 }
             ]
