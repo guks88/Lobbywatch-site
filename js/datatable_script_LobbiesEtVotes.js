@@ -48,3 +48,39 @@ var dataTablesOnClick = function(){
         displayInfo(affairVoteId);
     });
 };
+
+var dataTablesLobbiesEtVotesSelected = function(affairVoteId){
+    $.ajax({
+        url: "/get_infos_vote_of_lobby_selected",
+        method: 'get',
+        dataType: 'json',
+        data: {affairVoteId: affairVoteId, selected: 1},
+        success: function(result){
+            $('#tableInfos').DataTable({
+                data: result,
+                columns:[
+                    {'data': 'parlementaires'},
+                    {'data': 'votes'},
+                ]
+            });
+        }
+    });
+};
+
+var dataTablesLobbiesEtVotesUpdateSelected = function(affairVoteId, selected) {
+    $('#parlementairesVotesContent').removeClass("hidden");
+    $('#TableInfosVote').removeClass("hidden");
+    var dataTable = $('#tableInfos').DataTable();
+    dataTable.clear();
+    $.ajax({
+        url: "/get_infos_vote_of_lobby_selected",
+        method: 'get',
+        dataType: 'json',
+        data: {affairVoteId: affairVoteId, selected: selected},
+        success: function(result){
+            dataTable.clear();
+            dataTable.rows.add(result);
+            dataTable.draw();
+        }
+    });
+};

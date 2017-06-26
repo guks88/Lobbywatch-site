@@ -74,6 +74,16 @@ var displayInfo = function(affairVoteId) {
     initVegaMoyenne(affairVoteId);
 
     initVegaMoyenneLobbies(affairVoteId);
+
+    dataTablesLobbiesEtVotesSelected(affairVoteId);
+
+    // votes select changed
+    select.change(function() {
+        var selected = $(this).val();
+        // update chart
+        chartLobbiesEtVotesUpdate(affairVoteId, selected);
+        dataTablesLobbiesEtVotesUpdateSelected(affairVoteId, selected);
+    });
 };
 
 // reload the page

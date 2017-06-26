@@ -68,6 +68,7 @@ var dataTablesBranchesEtVotesSelected = function(affairVoteId){
 };
 
 var dataTablesBranchesEtVotesUpdateSelected = function(affairVoteId, selected) {
+    $('#parlementairesVotesContent').removeClass("hidden");
     $('#TableInfosVote').removeClass("hidden");
     var dataTable = $('#tableInfos').DataTable();
     dataTable.clear();

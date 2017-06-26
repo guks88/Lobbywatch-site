@@ -325,7 +325,7 @@ var getAverageOfbranche = function(affairVoteId, specOui, specNon) {
                 }else{
                     specOui.height = (tableau_oui.values.length/3)*100;
                     specOui.data = tableau_oui;
-                    $$('#moyenneTous').append('<p style="text-align: center">Branches du oui</p>');
+                    $('#moyenneTous').append('<p style="text-align: center">Branches du oui</p>');
 
                     var view = new vega.View(vega.parse(specOui), {
                         loader: vega.loader({baseURL: ''}),
