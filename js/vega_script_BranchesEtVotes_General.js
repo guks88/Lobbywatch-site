@@ -94,14 +94,14 @@ var initVegaMoyenneBranche = function(affairVoteId) {
                         "from": {"data": "bars"},
                         "encode": {
                             "enter": {
-                                "x": {"field": "x2", "offset": 30},
+                                "x": {"field": "x2", "offset": 45},
                                 "y": {"field": "y", "offset": {"field": "height", "mult": 0.5}},
                                 "fill": {"value": "black"},
                                 "align": {"value": "right"},
                                 "baseline": {"value": "middle"},
                                 "fontSize": {"value": 17},
                                 "fontWeight": {"value": "bold"},
-                                "text": {"field": "datum.value"}
+                                "text": {"signal": "datum.datum.value + '%'"}
                             }
                         }
                     }
@@ -256,14 +256,14 @@ var chartBranchesEtVotesUpdate = function(affairVoteId, selected){
                         "from": {"data": "bars"},
                         "encode": {
                             "enter": {
-                                "x": {"field": "x2", "offset": 30},
+                                "x": {"field": "x2", "offset": 45},
                                 "y": {"field": "y", "offset": {"field": "height", "mult": 0.5}},
                                 "fill": {"value": "black"},
                                 "align": {"value": "right"},
                                 "baseline": {"value": "middle"},
                                 "fontSize": {"value": 17},
                                 "fontWeight": {"value": "bold"},
-                                "text": {"field": "datum.value"}
+                                "text": {"signal": "datum.datum.value + '%'"}
                             }
                         }
                     }

@@ -13,7 +13,6 @@ $(document).ready(function() {
             {
                 "name": "tree",
                 "url": "/search_all_branches_size?selected=0",
-                //"url": "../data/flare.json",
                 "transform": [
                     {
                         "type": "stratify",

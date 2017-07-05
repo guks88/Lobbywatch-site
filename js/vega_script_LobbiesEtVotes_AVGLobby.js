@@ -93,14 +93,14 @@ var initVegaMoyenneLobbies = function (affairVoteId){
                         "from": {"data": "bars"},
                         "encode": {
                             "enter": {
-                                "x": {"field": "x2", "offset": 30},
+                                "x": {"field": "x2", "offset": 45},
                                 "y": {"field": "y", "offset": {"field": "height", "mult": 0.5}},
                                 "fill": {"value": "black"},
                                 "align": {"value": "right"},
                                 "baseline": {"value": "middle"},
                                 "fontSize": {"value": 17},
                                 "fontWeight": {"value": "bold"},
-                                "text": {"field": "datum.value"}
+                                "text": {"signal": "datum.datum.value + '%'"}
                             }
                         }
                     }
@@ -203,14 +203,14 @@ var initVegaMoyenneLobbies = function (affairVoteId){
                         "from": {"data": "bars"},
                         "encode": {
                             "enter": {
-                                "x": {"field": "x2", "offset": 30},
+                                "x": {"field": "x2", "offset": 45},
                                 "y": {"field": "y", "offset": {"field": "height", "mult": 0.5}},
                                 "fill": {"value": "black"},
                                 "align": {"value": "right"},
                                 "baseline": {"value": "middle"},
                                 "fontSize": {"value": 17},
                                 "fontWeight": {"value": "bold"},
-                                "text": {"field": "datum.value"}
+                                "text": {"signal": "datum.datum.value + '%'"}
                             }
                         }
                     }
@@ -244,6 +244,7 @@ var getAverageOfLobby = function(affairVoteId, specOui, specNon) {
                 if (!(this.lobbies in votes)) {
                     votes[this.lobbies] = {
                         lobby: this.lobbies,
+                        lobbyID: this.lobbyId,
                         oui: 0,
                         non: 0,
                         blanc: 0
@@ -268,73 +269,155 @@ var getAverageOfLobby = function(affairVoteId, specOui, specNon) {
                 var value_oui = {
                     "category": this.lobby,
                     "position": 0,
-                    "value": var_oui
+                    "value": var_oui,
+                    "lobbyID": this.lobbyID
                 }
                 window[var_oui > var_non ? 'tableau_oui' : 'tableau_non'].values.push(value_oui);
                 var value_white = {
                     "category": this.lobby,
                     "position": 1,
-                    "value": var_blanc
+                    "value": var_blanc,
+                    "lobbyID": this.lobbyID
                 }
                 window[var_oui > var_non ? 'tableau_oui' : 'tableau_non'].values.push(value_white);
                 var value_non = {
                     "category": this.lobby,
                     "position": 2,
-                    "value": var_non
+                    "value": var_non,
+                    "lobbyID": this.lobbyID
                 }
                 window[var_oui > var_non ? 'tableau_oui' : 'tableau_non'].values.push(value_non);
             });
 
-            if(tableau_oui.values.length > 0 && tableau_non.values.length > 0){
-                $('#colonneUn').removeClass("hidden");
-                $('#colonneDeux').removeClass("hidden");
+            tableau_oui.values = triVegaOui(tableau_oui.values);
 
-                specOui.height = (tableau_oui.values.length/3)*100;
-                specNon.height = (tableau_non.values.length/3)*100;
-                specOui.width = 300;
-                specNon.width = 300;
+            tableau_non.values = triVegaNon(tableau_non.values);
 
-                specOui.data = tableau_oui;
-                specNon.data = tableau_non;
-
-                var viewOui = new vega.View(vega.parse(specOui), {
-                    loader: vega.loader({baseURL: ''}),
-                    logLevel: vega.Warn,
-                    renderer: 'canvas'
-                }).initialize('#moyenne_chart_lobbies_Oui').hover().run();
-
-                var viewNon = new vega.View(vega.parse(specNon), {
-                    loader: vega.loader({baseURL: ''}),
-                    logLevel: vega.Warn,
-                    renderer: 'canvas'
-                }).initialize('#moyenne_chart_lobbies_Non').hover().run();
-
-            }else{
-                $('#uneColonne').removeClass("hidden");
-
-                if(tableau_oui.values.length == 0){
-                    specNon.height = (tableau_non.values.length/3)*100;
-                    specNon.data = tableau_non;
-                    $('#moyenneTous').append('<p style="text-align: center">Lobbies du non</p>');
-
-                    var view = new vega.View(vega.parse(specNon), {
-                        loader: vega.loader({baseURL: ''}),
-                        logLevel: vega.Warn,
-                        renderer: 'canvas'
-                    }).initialize('#moyenne_chart_lobbies').hover().run();
-                }else{
-                    specOui.height = (tableau_oui.values.length/3)*100;
-                    specOui.data = tableau_oui;
-                    $('#moyenneTous').append('<p style="text-align: center">Lobbies du oui</p>');
-
-                    var view = new vega.View(vega.parse(specOui), {
-                        loader: vega.loader({baseURL: ''}),
-                        logLevel: vega.Warn,
-                        renderer: 'canvas'
-                    }).initialize('#moyenne_chart_lobbies').hover().run();
-                }
-            }
+            displayTableauOuiNon(tableau_oui, tableau_non, specOui, specNon);
         }
     });
+};
+
+var displayTableauOuiNon = function(tableau_oui, tableau_non, specOui, specNon){
+    if(tableau_oui.values.length > 0 && tableau_non.values.length > 0){
+        $('#colonneUn').removeClass("hidden");
+        $('#colonneDeux').removeClass("hidden");
+
+        specOui.height = (tableau_oui.values.length/3)*100;
+        specNon.height = (tableau_non.values.length/3)*100;
+        specOui.width = 300;
+        specNon.width = 300;
+
+        specOui.data = tableau_oui;
+        specNon.data = tableau_non;
+
+        var viewOui = new vega.View(vega.parse(specOui), {
+            loader: vega.loader({baseURL: ''}),
+            logLevel: vega.Warn,
+            renderer: 'canvas'
+        }).initialize('#moyenne_chart_lobbies_Oui').hover().run();
+
+        var viewNon = new vega.View(vega.parse(specNon), {
+            loader: vega.loader({baseURL: ''}),
+            logLevel: vega.Warn,
+            renderer: 'canvas'
+        }).initialize('#moyenne_chart_lobbies_Non').hover().run();
+
+    }else{
+        $('#uneColonne').removeClass("hidden");
+
+        if(tableau_oui.values.length == 0){
+            specNon.height = (tableau_non.values.length/3)*100;
+            specNon.data = tableau_non;
+            $('#moyenneTous').append('<p style="text-align: center">Lobbies du non</p>');
+
+            var view = new vega.View(vega.parse(specNon), {
+                loader: vega.loader({baseURL: ''}),
+                logLevel: vega.Warn,
+                renderer: 'canvas'
+            }).initialize('#moyenne_chart_lobbies').hover().run();
+        }else{
+            specOui.height = (tableau_oui.values.length/3)*100;
+            specOui.data = tableau_oui;
+            $('#moyenneTous').append('<p style="text-align: center">Lobbies du oui</p>');
+
+            var view = new vega.View(vega.parse(specOui), {
+                loader: vega.loader({baseURL: ''}),
+                logLevel: vega.Warn,
+                renderer: 'canvas'
+            }).initialize('#moyenne_chart_lobbies').hover().run();
+        }
+    }
+};
+
+var triVegaOui = function(tableau){
+    var array = [];
+    var big = 0;
+    var udex = 0;
+
+    while(array.length != tableau.length){
+        $.each(tableau, function(){
+            var boolean = itIs(this, array);
+            if(boolean == false) {
+                if (this.position == 0) {
+                    if (this.value >= big) {
+                        big = this.value;
+                        udex = this.lobbyID;
+                    }
+                }
+            }
+        });
+        $.each(tableau, function(){
+            if(this.lobbyID == udex){
+                array.push(this);
+                big = 0;
+            }
+        });
+    };
+
+    return array;
+};
+
+var triVegaNon = function(tableau){
+    var array = [];
+    var big = 0;
+    var udex = 0;
+
+    while(array.length != tableau.length){
+        $.each(tableau, function(){
+            var boolean = itIs(this, array);
+            if(boolean == false) {
+                if (this.position == 2) {
+                    if (this.value >= big) {
+                        big = this.value;
+                        udex = this.lobbyID;
+                    }
+                }
+            }
+        });
+        $.each(tableau, function(){
+            if(this.lobbyID == udex){
+                array.push(this);
+                big = 0;
+            }
+        });
+    };
+
+    console.log(JSON.stringify(array));
+    return array;
+};
+
+var itIs = function(object, tableau){
+    var boolean = false;
+
+    $.each(tableau, function(){
+        if(object == this){
+            boolean = true;
+            return false;
+        }
+    });
+
+    return boolean;
+
 };
 

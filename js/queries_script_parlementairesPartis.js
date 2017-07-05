@@ -28,17 +28,35 @@ $(document).ready(function() {
     selectAvecContre.append('<option value="'+0+'">Contre majorité parti</option>');
     selectAvecContre.select2();
 
-    // parlamentarian select changed
     select.change(function() {
         var selected = $(this).val();
-        var data = {};
-        data.selected = selected;
+
+        $('#espace1').addClass("hidden");
+        $('#selParl').removeClass("col-lg-4");
+        $('#selParl').addClass("col-lg-5");
+        $('#espace2').removeClass("col-lg-4");
+        $('#espace2').addClass("col-lg-2");
+        $('#selAvec').removeClass("hidden");
+        $('#selAvec').addClass("col-lg-5");
+
+        changeVega(selected);
+        dataTablesParlementairesPartisUpdate(selected);
+        selectAvecContre.val(2).trigger('change');
+
+        // AvecContre select changed
+        selectAvecContre.change(function() {
+            var selected2 = $(this).val();
+            updateDataTablesAvecContre(selected, selected2);
+        });
     });
 
-    // AvecContre select changed
-    selectAvecContre.change(function() {
-        var selected = $(this).val();
-        var data = {};
-        data.selected = selected;
-    });
+    initVegaMoyennePartis();
+
+    dataTablesParlementairesPartisInit();
+
+    //avgMoyennePartis();
+
+    //getObjectaverageParlamentariansPartis();
+
+
 });

@@ -23,43 +23,44 @@ $(document).ready(function() {
     }});
 
     var selectAvecContre = $("#select_avecContre");
-    selectAvecContre.append('<option value="'+2+'">Avec/Contre majorité parti</option>');
-    selectAvecContre.append('<option value="'+1+'">Avec majorité parti</option>');
-    selectAvecContre.append('<option value="'+0+'">Contre majorité parti</option>');
+    selectAvecContre.append('<option value="'+2+'">Avec/Contre majorité lobby</option>');
+    selectAvecContre.append('<option value="'+1+'">Avec majorité lobby</option>');
+    selectAvecContre.append('<option value="'+0+'">Contre majorité lobby</option>');
     selectAvecContre.select2();
-
-    // All lobbies on dropdown list
-    var selectLobbies = $("#select_lobbies");
-    $.ajax({url: "/search_all_lobbies", dataType: 'json', success: function(result){
-        if(result != null){
-            selectLobbies.append('<option value="0">Tous les lobbies</option>');
-        }
-        $.each(result, function() {
-            selectLobbies.append('<option value="'+this.id+'">'+this.name_fr+'</option>');
-        });
-        selectLobbies.select2();
-    }});
-
-
 
     // parlamentarian select changed
     select.change(function() {
         var selected = $(this).val();
-        var data = {};
-        data.selected = selected;
+
+        $('#espace1').addClass("hidden");
+        $('#selParl').removeClass("col-lg-4");
+        $('#selParl').addClass("col-lg-5");
+        $('#espace2').removeClass("col-lg-4");
+        $('#espace2').addClass("col-lg-2");
+        $('#selAvec').removeClass("hidden");
+        $('#selAvec').addClass("col-lg-5");
+
+        changeVega(selected);
+        dataTablesParlementairesLobbiesUpdate(selected);
+        selectAvecContre.val(2).trigger('change');
+
+        // AvecContre select changed
+        selectAvecContre.change(function() {
+            var selected2 = $(this).val();
+            updateDataTablesAvecContre(selected, selected2);
+        });
     });
 
-    // AvecContre select changed
-    selectAvecContre.change(function() {
-        var selected = $(this).val();
-        var data = {};
-        data.selected = selected;
-    });
+    initVegaMoyenneLobbies();
 
-    // AvecContre select changed
-    selectLobbies.change(function() {
-        var selected = $(this).val();
-        var data = {};
-        data.selected = selected;
-    });
+    dataTablesParlementairesLobbiesInit();
+
+    //averageOfAverageParlamentariansLobbies();
+
+    //getResultPerParlamentarians();
+
+    //avgMoyenneLobbies();
+
+    //getAverage();
+
 });

@@ -1,0 +1,1415 @@
+[{
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1160,
+  "contre": 343,
+  "idParlemantaire": 2023,
+  "parlementaire": "Daniel Brélaz"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1392,
+  "contre": 111,
+  "idParlemantaire": 2129,
+  "parlementaire": "Susanne Leutenegger Oberholzer"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1367,
+  "contre": 136,
+  "idParlemantaire": 2147,
+  "parlementaire": "Maximilian Reimann"
+}, {
+  "idParti": 16,
+  "parti": "PLD",
+  "avec": 1502,
+  "contre": 0,
+  "idParlemantaire": 2287,
+  "parlementaire": "Christoph Eymann"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1331,
+  "contre": 172,
+  "idParlemantaire": 2292,
+  "parlementaire": "Ulrich Giezendanner"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1390,
+  "contre": 113,
+  "idParlemantaire": 2323,
+  "parlementaire": "Luzi Stamm"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1386,
+  "contre": 117,
+  "idParlemantaire": 2328,
+  "parlementaire": "Alexander Tschäppät"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1375,
+  "contre": 128,
+  "idParlemantaire": 2372,
+  "parlementaire": "Toni Brunner"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1443,
+  "contre": 60,
+  "idParlemantaire": 2417,
+  "parlementaire": "Silva Semadeni"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1316,
+  "contre": 187,
+  "idParlemantaire": 2525,
+  "parlementaire": "Kathy Riklin"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 967,
+  "contre": 536,
+  "idParlemantaire": 2536,
+  "parlementaire": "Jürg Stahl"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1389,
+  "contre": 114,
+  "idParlemantaire": 2541,
+  "parlementaire": "Hansjörg Walter"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1451,
+  "contre": 52,
+  "idParlemantaire": 2569,
+  "parlementaire": "Maya Graf"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1404,
+  "contre": 99,
+  "idParlemantaire": 2580,
+  "parlementaire": "Ruth Humbel"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1469,
+  "contre": 34,
+  "idParlemantaire": 2583,
+  "parlementaire": "Evi Allemann"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1433,
+  "contre": 70,
+  "idParlemantaire": 2584,
+  "parlementaire": "Adrian Amstutz"
+}, {
+  "idParti": 2,
+  "parti": "PVL",
+  "avec": 1180,
+  "contre": 323,
+  "idParlemantaire": 2585,
+  "parlementaire": "Martin Bäumle"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1330,
+  "contre": 173,
+  "idParlemantaire": 2588,
+  "parlementaire": "Jakob Büchler"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1310,
+  "contre": 193,
+  "idParlemantaire": 2593,
+  "parlementaire": "Dominique de Buman"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1219,
+  "contre": 284,
+  "idParlemantaire": 2594,
+  "parlementaire": "Kurt Fluri"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1301,
+  "contre": 202,
+  "idParlemantaire": 2597,
+  "parlementaire": "Chantal Galladé"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1412,
+  "contre": 91,
+  "idParlemantaire": 2601,
+  "parlementaire": "Bea Heim"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1410,
+  "contre": 93,
+  "idParlemantaire": 2608,
+  "parlementaire": "Margret Kiener Nellen"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 366,
+  "contre": 1137,
+  "idParlemantaire": 2614,
+  "parlementaire": "Christa Markwalder"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1275,
+  "contre": 228,
+  "idParlemantaire": 2617,
+  "parlementaire": "Walter Müller"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1429,
+  "contre": 74,
+  "idParlemantaire": 2618,
+  "parlementaire": "Felix Müri"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 65,
+  "contre": 16,
+  "idParlemantaire": 2619,
+  "parlementaire": "Ruedi Noser"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1160,
+  "contre": 343,
+  "idParlemantaire": 2623,
+  "parlementaire": "Gerhard Pfister"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1272,
+  "contre": 231,
+  "idParlemantaire": 2627,
+  "parlementaire": "Jean-François Rime"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1472,
+  "contre": 31,
+  "idParlemantaire": 2630,
+  "parlementaire": "Silvia Schenker"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1403,
+  "contre": 100,
+  "idParlemantaire": 2631,
+  "parlementaire": "Pirmin Schwander"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1395,
+  "contre": 108,
+  "idParlemantaire": 2632,
+  "parlementaire": "Carlo Sommaruga"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1440,
+  "contre": 63,
+  "idParlemantaire": 2638,
+  "parlementaire": "Walter Wobmann"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1389,
+  "contre": 114,
+  "idParlemantaire": 2646,
+  "parlementaire": "Viola Amherd"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1454,
+  "contre": 49,
+  "idParlemantaire": 2648,
+  "parlementaire": "Roger Nordmann"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1462,
+  "contre": 41,
+  "idParlemantaire": 2652,
+  "parlementaire": "Edith Graf-Litscher"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1414,
+  "contre": 89,
+  "idParlemantaire": 2654,
+  "parlementaire": "Louis Schelbert"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1405,
+  "contre": 98,
+  "idParlemantaire": 2657,
+  "parlementaire": "Ida Glanzmann-Hunkeler"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1062,
+  "contre": 441,
+  "idParlemantaire": 2660,
+  "parlementaire": "Isabelle Moret"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1374,
+  "contre": 129,
+  "idParlemantaire": 2661,
+  "parlementaire": "Thomas Müller"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1429,
+  "contre": 74,
+  "idParlemantaire": 2664,
+  "parlementaire": "Ignazio Cassis"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1467,
+  "contre": 36,
+  "idParlemantaire": 2666,
+  "parlementaire": "Marina Carobbio Guscetti"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1276,
+  "contre": 227,
+  "idParlemantaire": 2670,
+  "parlementaire": "Andreas Aebi"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1345,
+  "contre": 158,
+  "idParlemantaire": 2675,
+  "parlementaire": "Jacques Bourgeois"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1398,
+  "contre": 105,
+  "idParlemantaire": 2678,
+  "parlementaire": "Corina Eichenberger-Walther"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1293,
+  "contre": 210,
+  "idParlemantaire": 2679,
+  "parlementaire": "Yvette Estermann"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1015,
+  "contre": 488,
+  "idParlemantaire": 2680,
+  "parlementaire": "Doris Fiala"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1397,
+  "contre": 106,
+  "idParlemantaire": 2681,
+  "parlementaire": "Sylvia Flückiger-Bäni"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1443,
+  "contre": 60,
+  "idParlemantaire": 2683,
+  "parlementaire": "Andrea Martina Geissbühler"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1437,
+  "contre": 66,
+  "idParlemantaire": 2685,
+  "parlementaire": "Bastien Girod"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1197,
+  "contre": 138,
+  "idParlemantaire": 2686,
+  "parlementaire": "Alice Glauser-Zufferey"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1345,
+  "contre": 158,
+  "idParlemantaire": 2688,
+  "parlementaire": "Jean-Pierre Grin"
+}, {
+  "idParti": 8,
+  "parti": "PBD",
+  "avec": 1055,
+  "contre": 448,
+  "idParlemantaire": 2689,
+  "parlementaire": "Hans Grunder"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1315,
+  "contre": 188,
+  "idParlemantaire": 2690,
+  "parlementaire": "Alfred Heer"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1410,
+  "contre": 93,
+  "idParlemantaire": 2691,
+  "parlementaire": "Hugues Hiltpold"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1326,
+  "contre": 177,
+  "idParlemantaire": 2693,
+  "parlementaire": "Thomas Hurter"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 65,
+  "contre": 16,
+  "idParlemantaire": 2694,
+  "parlementaire": "Daniel Jositsch"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1376,
+  "contre": 127,
+  "idParlemantaire": 2698,
+  "parlementaire": "Christian Lüscher"
+}, {
+  "idParti": 2,
+  "parti": "PVL",
+  "avec": 1466,
+  "contre": 37,
+  "idParlemantaire": 2700,
+  "parlementaire": "Tiana Angelina Moser"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1262,
+  "contre": 241,
+  "idParlemantaire": 2701,
+  "parlementaire": "Yves Nidegger"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1436,
+  "contre": 67,
+  "idParlemantaire": 2702,
+  "parlementaire": "Eric Nussbaumer"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1308,
+  "contre": 195,
+  "idParlemantaire": 2704,
+  "parlementaire": "Lukas Reimann"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1412,
+  "contre": 91,
+  "idParlemantaire": 2705,
+  "parlementaire": "Natalie Rickli"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1281,
+  "contre": 222,
+  "idParlemantaire": 2707,
+  "parlementaire": "Barbara Schmid-Federer"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1358,
+  "contre": 145,
+  "idParlemantaire": 2708,
+  "parlementaire": "Roberto Schmidt"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1419,
+  "contre": 84,
+  "idParlemantaire": 2710,
+  "parlementaire": "Adèle Thorens Goumaz"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1339,
+  "contre": 164,
+  "idParlemantaire": 2713,
+  "parlementaire": "Erich von Siebenthal"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1315,
+  "contre": 188,
+  "idParlemantaire": 2715,
+  "parlementaire": "Christian Wasserfallen"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1428,
+  "contre": 75,
+  "idParlemantaire": 2726,
+  "parlementaire": "Ada Marra"
+}, {
+  "idParti": 2,
+  "parti": "PVL",
+  "avec": 1464,
+  "contre": 39,
+  "idParlemantaire": 2728,
+  "parlementaire": "Thomas Weibel"
+}, {
+  "idParti": 8,
+  "parti": "PBD",
+  "avec": 1311,
+  "contre": 192,
+  "idParlemantaire": 2735,
+  "parlementaire": "Martin Landolt"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1430,
+  "contre": 73,
+  "idParlemantaire": 2738,
+  "parlementaire": "Jacques-André Maire"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1363,
+  "contre": 140,
+  "idParlemantaire": 2740,
+  "parlementaire": "Roland Rino Büchel"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1376,
+  "contre": 127,
+  "idParlemantaire": 2743,
+  "parlementaire": "Prisca Birrer-Heimo"
+}, {
+  "idParti": 6,
+  "parti": "PEV",
+  "avec": 1458,
+  "contre": 45,
+  "idParlemantaire": 2744,
+  "parlementaire": "Maja Ingold"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1470,
+  "contre": 33,
+  "idParlemantaire": 2745,
+  "parlementaire": "Beat Jans"
+}, {
+  "idParti": 6,
+  "parti": "PEV",
+  "avec": 1360,
+  "contre": 143,
+  "idParlemantaire": 2747,
+  "parlementaire": "Marianne Streiff-Feller"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1252,
+  "contre": 251,
+  "idParlemantaire": 2748,
+  "parlementaire": "Elisabeth Schneider-Schneiter"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1249,
+  "contre": 254,
+  "idParlemantaire": 2750,
+  "parlementaire": "Sebastian Frehner"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1345,
+  "contre": 158,
+  "idParlemantaire": 2751,
+  "parlementaire": "Corrado Pardini"
+}, {
+  "idParti": 10,
+  "parti": "LEGA",
+  "avec": 1486,
+  "contre": 17,
+  "idParlemantaire": 2752,
+  "parlementaire": "Lorenzo Quadri"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1381,
+  "contre": 122,
+  "idParlemantaire": 2754,
+  "parlementaire": "Markus Ritter"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1423,
+  "contre": 80,
+  "idParlemantaire": 2757,
+  "parlementaire": "Thomas de Courten"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1389,
+  "contre": 114,
+  "idParlemantaire": 2758,
+  "parlementaire": "Thomas Aeschi"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1354,
+  "contre": 149,
+  "idParlemantaire": 2759,
+  "parlementaire": "Cédric Wermuth"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1439,
+  "contre": 64,
+  "idParlemantaire": 2760,
+  "parlementaire": "Matthias Aebischer"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1358,
+  "contre": 145,
+  "idParlemantaire": 2761,
+  "parlementaire": "Albert Vitali"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1290,
+  "contre": 213,
+  "idParlemantaire": 2762,
+  "parlementaire": "Jacqueline Badran"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1417,
+  "contre": 86,
+  "idParlemantaire": 2763,
+  "parlementaire": "Thomas Hardegger"
+}, {
+  "idParti": 8,
+  "parti": "PBD",
+  "avec": 1153,
+  "contre": 269,
+  "idParlemantaire": 2764,
+  "parlementaire": "Urs Gasche"
+}, {
+  "idParti": 2,
+  "parti": "PVL",
+  "avec": 1457,
+  "contre": 46,
+  "idParlemantaire": 2765,
+  "parlementaire": "Beat Flach"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1401,
+  "contre": 102,
+  "idParlemantaire": 2766,
+  "parlementaire": "Daniela Schneeberger"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1214,
+  "contre": 289,
+  "idParlemantaire": 2767,
+  "parlementaire": "Daniel Fässler"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1316,
+  "contre": 187,
+  "idParlemantaire": 2770,
+  "parlementaire": "Martin Candinas"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1319,
+  "contre": 184,
+  "idParlemantaire": 2771,
+  "parlementaire": "Stefan Müller-Altermatt"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1352,
+  "contre": 151,
+  "idParlemantaire": 2772,
+  "parlementaire": "Heinz Brand"
+}, {
+  "idParti": 10,
+  "parti": "LEGA",
+  "avec": 1389,
+  "contre": 114,
+  "idParlemantaire": 2773,
+  "parlementaire": "Roberta Pantani"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1352,
+  "contre": 151,
+  "idParlemantaire": 2776,
+  "parlementaire": "Fabio Regazzi"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1419,
+  "contre": 84,
+  "idParlemantaire": 2777,
+  "parlementaire": "Yvonne Feri"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1267,
+  "contre": 236,
+  "idParlemantaire": 2778,
+  "parlementaire": "Pierre-Alain Fridez"
+}, {
+  "idParti": 8,
+  "parti": "PBD",
+  "avec": 1372,
+  "contre": 131,
+  "idParlemantaire": 2779,
+  "parlementaire": "Rosmarie Quadranti"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1442,
+  "contre": 61,
+  "idParlemantaire": 2781,
+  "parlementaire": "Nadja Pieren"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1286,
+  "contre": 217,
+  "idParlemantaire": 2784,
+  "parlementaire": "Bruno Pezzatti"
+}, {
+  "idParti": 8,
+  "parti": "PBD",
+  "avec": 1399,
+  "contre": 104,
+  "idParlemantaire": 2785,
+  "parlementaire": "Bernhard Guhl"
+}, {
+  "idParti": 2,
+  "parti": "PVL",
+  "avec": 1413,
+  "contre": 90,
+  "idParlemantaire": 2786,
+  "parlementaire": "Jürg Grossen"
+}, {
+  "idParti": 11,
+  "parti": "PCS",
+  "avec": 1503,
+  "contre": 0,
+  "idParlemantaire": 2787,
+  "parlementaire": "Karl Vogler"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1385,
+  "contre": 118,
+  "idParlemantaire": 2788,
+  "parlementaire": "Fathi Derder"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1267,
+  "contre": 236,
+  "idParlemantaire": 2789,
+  "parlementaire": "Olivier Feller"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1380,
+  "contre": 123,
+  "idParlemantaire": 2790,
+  "parlementaire": "Yannick Buttet"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1472,
+  "contre": 31,
+  "idParlemantaire": 2792,
+  "parlementaire": "Philipp Hadorn"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1441,
+  "contre": 62,
+  "idParlemantaire": 2795,
+  "parlementaire": "Mathias Reynard"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1364,
+  "contre": 139,
+  "idParlemantaire": 2796,
+  "parlementaire": "Céline Amaudruz"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1429,
+  "contre": 74,
+  "idParlemantaire": 2798,
+  "parlementaire": "Jean-Paul Gschwind"
+}, {
+  "idParti": 8,
+  "parti": "PBD",
+  "avec": 1225,
+  "contre": 278,
+  "idParlemantaire": 2799,
+  "parlementaire": "Lorenz Hess"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1333,
+  "contre": 170,
+  "idParlemantaire": 3000,
+  "parlementaire": "Regula Rytz"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1370,
+  "contre": 133,
+  "idParlemantaire": 3001,
+  "parlementaire": "Alois Gmür"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1357,
+  "contre": 146,
+  "idParlemantaire": 3002,
+  "parlementaire": "Markus Hausammann"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1461,
+  "contre": 42,
+  "idParlemantaire": 3003,
+  "parlementaire": "Balthasar Glättli"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1353,
+  "contre": 150,
+  "idParlemantaire": 3005,
+  "parlementaire": "Hans Egloff"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1382,
+  "contre": 121,
+  "idParlemantaire": 3007,
+  "parlementaire": "Manuel Tornare"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1455,
+  "contre": 48,
+  "idParlemantaire": 3009,
+  "parlementaire": "Valérie Piller Carrard"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1376,
+  "contre": 127,
+  "idParlemantaire": 3010,
+  "parlementaire": "Albert Rösti"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1352,
+  "contre": 151,
+  "idParlemantaire": 3012,
+  "parlementaire": "Leo Müller"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1412,
+  "contre": 91,
+  "idParlemantaire": 3013,
+  "parlementaire": "Peter Keller"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1341,
+  "contre": 162,
+  "idParlemantaire": 3014,
+  "parlementaire": "Cesla Amarelle"
+}, {
+  "idParti": 2,
+  "parti": "PVL",
+  "avec": 1378,
+  "contre": 125,
+  "idParlemantaire": 3016,
+  "parlementaire": "Kathrin Bertschy"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1362,
+  "contre": 141,
+  "idParlemantaire": 3017,
+  "parlementaire": "Christine Bulliard-Marbach"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1418,
+  "contre": 85,
+  "idParlemantaire": 3018,
+  "parlementaire": "Martin Naef"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1402,
+  "contre": 101,
+  "idParlemantaire": 3020,
+  "parlementaire": "Jean Christophe Schwaab"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1433,
+  "contre": 70,
+  "idParlemantaire": 3021,
+  "parlementaire": "Hansjörg Knecht"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1409,
+  "contre": 94,
+  "idParlemantaire": 3023,
+  "parlementaire": "Petra Gössi"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1376,
+  "contre": 127,
+  "idParlemantaire": 3024,
+  "parlementaire": "Christian Lohr"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1389,
+  "contre": 114,
+  "idParlemantaire": 3025,
+  "parlementaire": "Marco Romano"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1377,
+  "contre": 126,
+  "idParlemantaire": 3026,
+  "parlementaire": "Barbara Gysi"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 116,
+  "contre": 1,
+  "idParlemantaire": 3028,
+  "parlementaire": "Ursula Schneider Schüttel"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1295,
+  "contre": 208,
+  "idParlemantaire": 3029,
+  "parlementaire": "Peter Schilliger"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1383,
+  "contre": 120,
+  "idParlemantaire": 3030,
+  "parlementaire": "Gregor Rutz"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1421,
+  "contre": 82,
+  "idParlemantaire": 3033,
+  "parlementaire": "Verena Herzog"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1364,
+  "contre": 139,
+  "idParlemantaire": 3034,
+  "parlementaire": "Nadine Masshardt"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1482,
+  "contre": 21,
+  "idParlemantaire": 3035,
+  "parlementaire": "Claudia Friedl"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1470,
+  "contre": 33,
+  "idParlemantaire": 3036,
+  "parlementaire": "Martina Munz"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1424,
+  "contre": 79,
+  "idParlemantaire": 3037,
+  "parlementaire": "Raymond Clottu"
+}, {
+  "idParti": 9,
+  "parti": "MCR",
+  "avec": 1503,
+  "contre": 0,
+  "idParlemantaire": 3039,
+  "parlementaire": "Roger Golay"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1233,
+  "contre": 270,
+  "idParlemantaire": 3040,
+  "parlementaire": "Guillaume Barazzone"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 609,
+  "contre": 894,
+  "idParlemantaire": 3042,
+  "parlementaire": "Giovanni Merlini"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1283,
+  "contre": 220,
+  "idParlemantaire": 3043,
+  "parlementaire": "Hans-Peter Portmann"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1393,
+  "contre": 110,
+  "idParlemantaire": 3044,
+  "parlementaire": "Beat Walti"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1459,
+  "contre": 44,
+  "idParlemantaire": 3045,
+  "parlementaire": "Rebecca Ana Ruiz"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1425,
+  "contre": 78,
+  "idParlemantaire": 3046,
+  "parlementaire": "Thomas Matter"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1411,
+  "contre": 92,
+  "idParlemantaire": 3051,
+  "parlementaire": "Christine Häsler"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1381,
+  "contre": 122,
+  "idParlemantaire": 3055,
+  "parlementaire": "Jean-Luc Addor"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1136,
+  "contre": 367,
+  "idParlemantaire": 3056,
+  "parlementaire": "Thomas Ammann"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1380,
+  "contre": 123,
+  "idParlemantaire": 3057,
+  "parlementaire": "Beat Arnold"
+}, {
+  "idParti": 15,
+  "parti": "BASTA",
+  "avec": 1503,
+  "contre": 0,
+  "idParlemantaire": 3058,
+  "parlementaire": "Sibel Arslan"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1378,
+  "contre": 125,
+  "idParlemantaire": 3059,
+  "parlementaire": "Philippe Bauer"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1330,
+  "contre": 173,
+  "idParlemantaire": 3060,
+  "parlementaire": "Claude Béglé"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1183,
+  "contre": 320,
+  "idParlemantaire": 3061,
+  "parlementaire": "Frédéric Borloz"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1402,
+  "contre": 101,
+  "idParlemantaire": 3062,
+  "parlementaire": "Michaël Buffat"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1387,
+  "contre": 116,
+  "idParlemantaire": 3063,
+  "parlementaire": "Manfred Bühler"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1315,
+  "contre": 188,
+  "idParlemantaire": 3064,
+  "parlementaire": "Thomas Burgherr"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1357,
+  "contre": 146,
+  "idParlemantaire": 3065,
+  "parlementaire": "Thierry Burkart"
+}, {
+  "idParti": 8,
+  "parti": "PBD",
+  "avec": 1426,
+  "contre": 77,
+  "idParlemantaire": 3066,
+  "parlementaire": "Duri Campell"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1343,
+  "contre": 160,
+  "idParlemantaire": 3067,
+  "parlementaire": "Marco Chiesa"
+}, {
+  "idParti": 13,
+  "parti": "PST",
+  "avec": 1503,
+  "contre": 0,
+  "idParlemantaire": 3068,
+  "parlementaire": "Denis de la Reussille"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1391,
+  "contre": 112,
+  "idParlemantaire": 3069,
+  "parlementaire": "Marcel Dettling"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1416,
+  "contre": 87,
+  "idParlemantaire": 3070,
+  "parlementaire": "Marcel Dobler"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1471,
+  "contre": 32,
+  "idParlemantaire": 3071,
+  "parlementaire": "Laurence Fehlmann Rielle"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1445,
+  "contre": 58,
+  "idParlemantaire": 3072,
+  "parlementaire": "Jonas Fricker"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1279,
+  "contre": 224,
+  "idParlemantaire": 3073,
+  "parlementaire": "Benoît Genecand"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1426,
+  "contre": 77,
+  "idParlemantaire": 3074,
+  "parlementaire": "Andreas Glarner"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1408,
+  "contre": 95,
+  "idParlemantaire": 3075,
+  "parlementaire": "Andrea Gmür-Schönenberger"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1392,
+  "contre": 111,
+  "idParlemantaire": 3076,
+  "parlementaire": "Franz Grüter"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1365,
+  "contre": 138,
+  "idParlemantaire": 3077,
+  "parlementaire": "Tim Guldimann"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1368,
+  "contre": 135,
+  "idParlemantaire": 3078,
+  "parlementaire": "Erich Hess"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1133,
+  "contre": 370,
+  "idParlemantaire": 3079,
+  "parlementaire": "Hermann Hess"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1432,
+  "contre": 71,
+  "idParlemantaire": 3080,
+  "parlementaire": "Christian Imark"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1450,
+  "contre": 53,
+  "idParlemantaire": 3081,
+  "parlementaire": "Barbara Keller-Inhelder"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1218,
+  "contre": 285,
+  "idParlemantaire": 3082,
+  "parlementaire": "Roger Köppel"
+}, {
+  "idParti": 7,
+  "parti": "PDC",
+  "avec": 1357,
+  "contre": 146,
+  "idParlemantaire": 3083,
+  "parlementaire": "Géraldine Marchand-Balet"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1453,
+  "contre": 50,
+  "idParlemantaire": 3084,
+  "parlementaire": "Min Li Marti"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1381,
+  "contre": 122,
+  "idParlemantaire": 3085,
+  "parlementaire": "Magdalena Martullo-Blocher"
+}, {
+  "idParti": 4,
+  "parti": "PES",
+  "avec": 1437,
+  "contre": 66,
+  "idParlemantaire": 3086,
+  "parlementaire": "Lisa Mazzone"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1420,
+  "contre": 83,
+  "idParlemantaire": 3087,
+  "parlementaire": "Mattea Meyer"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1324,
+  "contre": 179,
+  "idParlemantaire": 3088,
+  "parlementaire": "Philippe Nantermod"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1326,
+  "contre": 177,
+  "idParlemantaire": 3089,
+  "parlementaire": "Jacques Nicolet"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1384,
+  "contre": 119,
+  "idParlemantaire": 3090,
+  "parlementaire": "Pierre-André Page"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1370,
+  "contre": 133,
+  "idParlemantaire": 3091,
+  "parlementaire": "Franz Ruppen"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1422,
+  "contre": 81,
+  "idParlemantaire": 3092,
+  "parlementaire": "Werner Salzmann"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1470,
+  "contre": 33,
+  "idParlemantaire": 3094,
+  "parlementaire": "Priska Seiler Graf"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1443,
+  "contre": 60,
+  "idParlemantaire": 3095,
+  "parlementaire": "Sandra Sollberger"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1438,
+  "contre": 65,
+  "idParlemantaire": 3096,
+  "parlementaire": "Barbara Steinemann"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1476,
+  "contre": 27,
+  "idParlemantaire": 3097,
+  "parlementaire": "Mauro Tuena"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1402,
+  "contre": 101,
+  "idParlemantaire": 3098,
+  "parlementaire": "Hans-Ueli Vogt"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1303,
+  "contre": 200,
+  "idParlemantaire": 3099,
+  "parlementaire": "Bruno Walliser"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1348,
+  "contre": 155,
+  "idParlemantaire": 3100,
+  "parlementaire": "Laurent Wehrli"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1454,
+  "contre": 49,
+  "idParlemantaire": 3101,
+  "parlementaire": "Claudio Zanetti"
+}, {
+  "idParti": 5,
+  "parti": "UDC",
+  "avec": 1437,
+  "contre": 66,
+  "idParlemantaire": 3102,
+  "parlementaire": "David Zuberbühler"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1341,
+  "contre": 162,
+  "idParlemantaire": 3103,
+  "parlementaire": "Regine Sauter"
+}, {
+  "idParti": 3,
+  "parti": "PS",
+  "avec": 1394,
+  "contre": 28,
+  "idParlemantaire": 3104,
+  "parlementaire": "Angelo Barrile"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1413,
+  "contre": 90,
+  "idParlemantaire": 3109,
+  "parlementaire": "Matthias Samuel Jauslin"
+}, {
+  "idParti": 1,
+  "parti": "PLR",
+  "avec": 1241,
+  "contre": 181,
+  "idParlemantaire": 3110,
+  "parlementaire": "Hans-Ulrich Bigler"
+}, {
+  "idParti": 2,
+  "parti": "PVL",
+  "avec": 1343,
+  "contre": 160,
+  "idParlemantaire": 3604,
+  "parlementaire": "Isabelle Chevalley"
+}]

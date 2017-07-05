@@ -1,0 +1,2021 @@
+[{
+  "category": "Denis de la Reussille",
+  "position": 0,
+  "value": 100,
+  "idParlemantaire": 3068
+}, {
+  "category": "Denis de la Reussille",
+  "position": 1,
+  "value": 0,
+  "idParlemantaire": 3068
+}, {
+  "category": "Sibel Arslan",
+  "position": 0,
+  "value": 100,
+  "idParlemantaire": 3058
+}, {
+  "category": "Sibel Arslan",
+  "position": 1,
+  "value": 0,
+  "idParlemantaire": 3058
+}, {
+  "category": "Roger Golay",
+  "position": 0,
+  "value": 100,
+  "idParlemantaire": 3039
+}, {
+  "category": "Roger Golay",
+  "position": 1,
+  "value": 0,
+  "idParlemantaire": 3039
+}, {
+  "category": "Karl Vogler",
+  "position": 0,
+  "value": 100,
+  "idParlemantaire": 2787
+}, {
+  "category": "Karl Vogler",
+  "position": 1,
+  "value": 0,
+  "idParlemantaire": 2787
+}, {
+  "category": "Christoph Eymann",
+  "position": 0,
+  "value": 100,
+  "idParlemantaire": 2287
+}, {
+  "category": "Christoph Eymann",
+  "position": 1,
+  "value": 0,
+  "idParlemantaire": 2287
+}, {
+  "category": "Claudia Friedl",
+  "position": 0,
+  "value": 99,
+  "idParlemantaire": 3035
+}, {
+  "category": "Claudia Friedl",
+  "position": 1,
+  "value": 1,
+  "idParlemantaire": 3035
+}, {
+  "category": "Ursula Schneider Schüttel",
+  "position": 0,
+  "value": 99,
+  "idParlemantaire": 3028
+}, {
+  "category": "Ursula Schneider Schüttel",
+  "position": 1,
+  "value": 1,
+  "idParlemantaire": 3028
+}, {
+  "category": "Lorenzo Quadri",
+  "position": 0,
+  "value": 99,
+  "idParlemantaire": 2752
+}, {
+  "category": "Lorenzo Quadri",
+  "position": 1,
+  "value": 1,
+  "idParlemantaire": 2752
+}, {
+  "category": "Angelo Barrile",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 3104
+}, {
+  "category": "Angelo Barrile",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 3104
+}, {
+  "category": "Mauro Tuena",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 3097
+}, {
+  "category": "Mauro Tuena",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 3097
+}, {
+  "category": "Priska Seiler Graf",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 3094
+}, {
+  "category": "Priska Seiler Graf",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 3094
+}, {
+  "category": "Laurence Fehlmann Rielle",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 3071
+}, {
+  "category": "Laurence Fehlmann Rielle",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 3071
+}, {
+  "category": "Martina Munz",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 3036
+}, {
+  "category": "Martina Munz",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 3036
+}, {
+  "category": "Philipp Hadorn",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 2792
+}, {
+  "category": "Philipp Hadorn",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 2792
+}, {
+  "category": "Beat Jans",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 2745
+}, {
+  "category": "Beat Jans",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 2745
+}, {
+  "category": "Tiana Angelina Moser",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 2700
+}, {
+  "category": "Tiana Angelina Moser",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 2700
+}, {
+  "category": "Marina Carobbio Guscetti",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 2666
+}, {
+  "category": "Marina Carobbio Guscetti",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 2666
+}, {
+  "category": "Silvia Schenker",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 2630
+}, {
+  "category": "Silvia Schenker",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 2630
+}, {
+  "category": "Evi Allemann",
+  "position": 0,
+  "value": 98,
+  "idParlemantaire": 2583
+}, {
+  "category": "Evi Allemann",
+  "position": 1,
+  "value": 2,
+  "idParlemantaire": 2583
+}, {
+  "category": "Claudio Zanetti",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 3101
+}, {
+  "category": "Claudio Zanetti",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 3101
+}, {
+  "category": "Min Li Marti",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 3084
+}, {
+  "category": "Min Li Marti",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 3084
+}, {
+  "category": "Rebecca Ana Ruiz",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 3045
+}, {
+  "category": "Rebecca Ana Ruiz",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 3045
+}, {
+  "category": "Valérie Piller Carrard",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 3009
+}, {
+  "category": "Valérie Piller Carrard",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 3009
+}, {
+  "category": "Balthasar Glättli",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 3003
+}, {
+  "category": "Balthasar Glättli",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 3003
+}, {
+  "category": "Beat Flach",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 2765
+}, {
+  "category": "Beat Flach",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 2765
+}, {
+  "category": "Maja Ingold",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 2744
+}, {
+  "category": "Maja Ingold",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 2744
+}, {
+  "category": "Thomas Weibel",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 2728
+}, {
+  "category": "Thomas Weibel",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 2728
+}, {
+  "category": "Edith Graf-Litscher",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 2652
+}, {
+  "category": "Edith Graf-Litscher",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 2652
+}, {
+  "category": "Roger Nordmann",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 2648
+}, {
+  "category": "Roger Nordmann",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 2648
+}, {
+  "category": "Maya Graf",
+  "position": 0,
+  "value": 97,
+  "idParlemantaire": 2569
+}, {
+  "category": "Maya Graf",
+  "position": 1,
+  "value": 3,
+  "idParlemantaire": 2569
+}, {
+  "category": "David Zuberbühler",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 3102
+}, {
+  "category": "David Zuberbühler",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 3102
+}, {
+  "category": "Barbara Steinemann",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 3096
+}, {
+  "category": "Barbara Steinemann",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 3096
+}, {
+  "category": "Sandra Sollberger",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 3095
+}, {
+  "category": "Sandra Sollberger",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 3095
+}, {
+  "category": "Lisa Mazzone",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 3086
+}, {
+  "category": "Lisa Mazzone",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 3086
+}, {
+  "category": "Barbara Keller-Inhelder",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 3081
+}, {
+  "category": "Barbara Keller-Inhelder",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 3081
+}, {
+  "category": "Jonas Fricker",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 3072
+}, {
+  "category": "Jonas Fricker",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 3072
+}, {
+  "category": "Mathias Reynard",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2795
+}, {
+  "category": "Mathias Reynard",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2795
+}, {
+  "category": "Nadja Pieren",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2781
+}, {
+  "category": "Nadja Pieren",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2781
+}, {
+  "category": "Matthias Aebischer",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2760
+}, {
+  "category": "Matthias Aebischer",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2760
+}, {
+  "category": "Eric Nussbaumer",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2702
+}, {
+  "category": "Eric Nussbaumer",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2702
+}, {
+  "category": "Bastien Girod",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2685
+}, {
+  "category": "Bastien Girod",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2685
+}, {
+  "category": "Andrea Martina Geissbühler",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2683
+}, {
+  "category": "Andrea Martina Geissbühler",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2683
+}, {
+  "category": "Walter Wobmann",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2638
+}, {
+  "category": "Walter Wobmann",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2638
+}, {
+  "category": "Silva Semadeni",
+  "position": 0,
+  "value": 96,
+  "idParlemantaire": 2417
+}, {
+  "category": "Silva Semadeni",
+  "position": 1,
+  "value": 4,
+  "idParlemantaire": 2417
+}, {
+  "category": "Werner Salzmann",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3092
+}, {
+  "category": "Werner Salzmann",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3092
+}, {
+  "category": "Christian Imark",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3080
+}, {
+  "category": "Christian Imark",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3080
+}, {
+  "category": "Andreas Glarner",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3074
+}, {
+  "category": "Andreas Glarner",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3074
+}, {
+  "category": "Duri Campell",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3066
+}, {
+  "category": "Duri Campell",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3066
+}, {
+  "category": "Thomas Matter",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3046
+}, {
+  "category": "Thomas Matter",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3046
+}, {
+  "category": "Raymond Clottu",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3037
+}, {
+  "category": "Raymond Clottu",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3037
+}, {
+  "category": "Verena Herzog",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3033
+}, {
+  "category": "Verena Herzog",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3033
+}, {
+  "category": "Hansjörg Knecht",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 3021
+}, {
+  "category": "Hansjörg Knecht",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 3021
+}, {
+  "category": "Jean-Paul Gschwind",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 2798
+}, {
+  "category": "Jean-Paul Gschwind",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 2798
+}, {
+  "category": "Thomas de Courten",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 2757
+}, {
+  "category": "Thomas de Courten",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 2757
+}, {
+  "category": "Jacques-André Maire",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 2738
+}, {
+  "category": "Jacques-André Maire",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 2738
+}, {
+  "category": "Ada Marra",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 2726
+}, {
+  "category": "Ada Marra",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 2726
+}, {
+  "category": "Ignazio Cassis",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 2664
+}, {
+  "category": "Ignazio Cassis",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 2664
+}, {
+  "category": "Felix Müri",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 2618
+}, {
+  "category": "Felix Müri",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 2618
+}, {
+  "category": "Adrian Amstutz",
+  "position": 0,
+  "value": 95,
+  "idParlemantaire": 2584
+}, {
+  "category": "Adrian Amstutz",
+  "position": 1,
+  "value": 5,
+  "idParlemantaire": 2584
+}, {
+  "category": "Matthias Samuel Jauslin",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3109
+}, {
+  "category": "Matthias Samuel Jauslin",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3109
+}, {
+  "category": "Mattea Meyer",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3087
+}, {
+  "category": "Mattea Meyer",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3087
+}, {
+  "category": "Andrea Gmür-Schönenberger",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3075
+}, {
+  "category": "Andrea Gmür-Schönenberger",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3075
+}, {
+  "category": "Marcel Dobler",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3070
+}, {
+  "category": "Marcel Dobler",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3070
+}, {
+  "category": "Christine Häsler",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3051
+}, {
+  "category": "Christine Häsler",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3051
+}, {
+  "category": "Petra Gössi",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3023
+}, {
+  "category": "Petra Gössi",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3023
+}, {
+  "category": "Martin Naef",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3018
+}, {
+  "category": "Martin Naef",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3018
+}, {
+  "category": "Peter Keller",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 3013
+}, {
+  "category": "Peter Keller",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 3013
+}, {
+  "category": "Jürg Grossen",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2786
+}, {
+  "category": "Jürg Grossen",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2786
+}, {
+  "category": "Yvonne Feri",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2777
+}, {
+  "category": "Yvonne Feri",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2777
+}, {
+  "category": "Thomas Hardegger",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2763
+}, {
+  "category": "Thomas Hardegger",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2763
+}, {
+  "category": "Adèle Thorens Goumaz",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2710
+}, {
+  "category": "Adèle Thorens Goumaz",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2710
+}, {
+  "category": "Natalie Rickli",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2705
+}, {
+  "category": "Natalie Rickli",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2705
+}, {
+  "category": "Hugues Hiltpold",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2691
+}, {
+  "category": "Hugues Hiltpold",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2691
+}, {
+  "category": "Louis Schelbert",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2654
+}, {
+  "category": "Louis Schelbert",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2654
+}, {
+  "category": "Margret Kiener Nellen",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2608
+}, {
+  "category": "Margret Kiener Nellen",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2608
+}, {
+  "category": "Bea Heim",
+  "position": 0,
+  "value": 94,
+  "idParlemantaire": 2601
+}, {
+  "category": "Bea Heim",
+  "position": 1,
+  "value": 6,
+  "idParlemantaire": 2601
+}, {
+  "category": "Hans-Ueli Vogt",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 3098
+}, {
+  "category": "Hans-Ueli Vogt",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 3098
+}, {
+  "category": "Franz Grüter",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 3076
+}, {
+  "category": "Franz Grüter",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 3076
+}, {
+  "category": "Marcel Dettling",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 3069
+}, {
+  "category": "Marcel Dettling",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 3069
+}, {
+  "category": "Michaël Buffat",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 3062
+}, {
+  "category": "Michaël Buffat",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 3062
+}, {
+  "category": "Beat Walti",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 3044
+}, {
+  "category": "Beat Walti",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 3044
+}, {
+  "category": "Jean Christophe Schwaab",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 3020
+}, {
+  "category": "Jean Christophe Schwaab",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 3020
+}, {
+  "category": "Bernhard Guhl",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2785
+}, {
+  "category": "Bernhard Guhl",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2785
+}, {
+  "category": "Daniela Schneeberger",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2766
+}, {
+  "category": "Daniela Schneeberger",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2766
+}, {
+  "category": "Sylvia Flückiger-Bäni",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2681
+}, {
+  "category": "Sylvia Flückiger-Bäni",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2681
+}, {
+  "category": "Corina Eichenberger-Walther",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2678
+}, {
+  "category": "Corina Eichenberger-Walther",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2678
+}, {
+  "category": "Ida Glanzmann-Hunkeler",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2657
+}, {
+  "category": "Ida Glanzmann-Hunkeler",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2657
+}, {
+  "category": "Carlo Sommaruga",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2632
+}, {
+  "category": "Carlo Sommaruga",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2632
+}, {
+  "category": "Pirmin Schwander",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2631
+}, {
+  "category": "Pirmin Schwander",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2631
+}, {
+  "category": "Ruth Humbel",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2580
+}, {
+  "category": "Ruth Humbel",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2580
+}, {
+  "category": "Susanne Leutenegger Oberholzer",
+  "position": 0,
+  "value": 93,
+  "idParlemantaire": 2129
+}, {
+  "category": "Susanne Leutenegger Oberholzer",
+  "position": 1,
+  "value": 7,
+  "idParlemantaire": 2129
+}, {
+  "category": "Pierre-André Page",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3090
+}, {
+  "category": "Pierre-André Page",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3090
+}, {
+  "category": "Magdalena Martullo-Blocher",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3085
+}, {
+  "category": "Magdalena Martullo-Blocher",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3085
+}, {
+  "category": "Manfred Bühler",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3063
+}, {
+  "category": "Manfred Bühler",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3063
+}, {
+  "category": "Philippe Bauer",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3059
+}, {
+  "category": "Philippe Bauer",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3059
+}, {
+  "category": "Beat Arnold",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3057
+}, {
+  "category": "Beat Arnold",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3057
+}, {
+  "category": "Jean-Luc Addor",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3055
+}, {
+  "category": "Jean-Luc Addor",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3055
+}, {
+  "category": "Gregor Rutz",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3030
+}, {
+  "category": "Gregor Rutz",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3030
+}, {
+  "category": "Barbara Gysi",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3026
+}, {
+  "category": "Barbara Gysi",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3026
+}, {
+  "category": "Marco Romano",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3025
+}, {
+  "category": "Marco Romano",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3025
+}, {
+  "category": "Christian Lohr",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3024
+}, {
+  "category": "Christian Lohr",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3024
+}, {
+  "category": "Kathrin Bertschy",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3016
+}, {
+  "category": "Kathrin Bertschy",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3016
+}, {
+  "category": "Albert Rösti",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3010
+}, {
+  "category": "Albert Rösti",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3010
+}, {
+  "category": "Manuel Tornare",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 3007
+}, {
+  "category": "Manuel Tornare",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 3007
+}, {
+  "category": "Yannick Buttet",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2790
+}, {
+  "category": "Yannick Buttet",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2790
+}, {
+  "category": "Fathi Derder",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2788
+}, {
+  "category": "Fathi Derder",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2788
+}, {
+  "category": "Roberta Pantani",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2773
+}, {
+  "category": "Roberta Pantani",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2773
+}, {
+  "category": "Thomas Aeschi",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2758
+}, {
+  "category": "Thomas Aeschi",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2758
+}, {
+  "category": "Markus Ritter",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2754
+}, {
+  "category": "Markus Ritter",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2754
+}, {
+  "category": "Prisca Birrer-Heimo",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2743
+}, {
+  "category": "Prisca Birrer-Heimo",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2743
+}, {
+  "category": "Christian Lüscher",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2698
+}, {
+  "category": "Christian Lüscher",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2698
+}, {
+  "category": "Viola Amherd",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2646
+}, {
+  "category": "Viola Amherd",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2646
+}, {
+  "category": "Hansjörg Walter",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2541
+}, {
+  "category": "Hansjörg Walter",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2541
+}, {
+  "category": "Alexander Tschäppät",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2328
+}, {
+  "category": "Alexander Tschäppät",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2328
+}, {
+  "category": "Luzi Stamm",
+  "position": 0,
+  "value": 92,
+  "idParlemantaire": 2323
+}, {
+  "category": "Luzi Stamm",
+  "position": 1,
+  "value": 8,
+  "idParlemantaire": 2323
+}, {
+  "category": "Franz Ruppen",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 3091
+}, {
+  "category": "Franz Ruppen",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 3091
+}, {
+  "category": "Erich Hess",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 3078
+}, {
+  "category": "Erich Hess",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 3078
+}, {
+  "category": "Tim Guldimann",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 3077
+}, {
+  "category": "Tim Guldimann",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 3077
+}, {
+  "category": "Nadine Masshardt",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 3034
+}, {
+  "category": "Nadine Masshardt",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 3034
+}, {
+  "category": "Christine Bulliard-Marbach",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 3017
+}, {
+  "category": "Christine Bulliard-Marbach",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 3017
+}, {
+  "category": "Alois Gmür",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 3001
+}, {
+  "category": "Alois Gmür",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 3001
+}, {
+  "category": "Céline Amaudruz",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 2796
+}, {
+  "category": "Céline Amaudruz",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 2796
+}, {
+  "category": "Rosmarie Quadranti",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 2779
+}, {
+  "category": "Rosmarie Quadranti",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 2779
+}, {
+  "category": "Roland Rino Büchel",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 2740
+}, {
+  "category": "Roland Rino Büchel",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 2740
+}, {
+  "category": "Thomas Müller",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 2661
+}, {
+  "category": "Thomas Müller",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 2661
+}, {
+  "category": "Toni Brunner",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 2372
+}, {
+  "category": "Toni Brunner",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 2372
+}, {
+  "category": "Maximilian Reimann",
+  "position": 0,
+  "value": 91,
+  "idParlemantaire": 2147
+}, {
+  "category": "Maximilian Reimann",
+  "position": 1,
+  "value": 9,
+  "idParlemantaire": 2147
+}, {
+  "category": "Laurent Wehrli",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 3100
+}, {
+  "category": "Laurent Wehrli",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 3100
+}, {
+  "category": "Géraldine Marchand-Balet",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 3083
+}, {
+  "category": "Géraldine Marchand-Balet",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 3083
+}, {
+  "category": "Thierry Burkart",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 3065
+}, {
+  "category": "Thierry Burkart",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 3065
+}, {
+  "category": "Leo Müller",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 3012
+}, {
+  "category": "Leo Müller",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 3012
+}, {
+  "category": "Hans Egloff",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 3005
+}, {
+  "category": "Hans Egloff",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 3005
+}, {
+  "category": "Markus Hausammann",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 3002
+}, {
+  "category": "Markus Hausammann",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 3002
+}, {
+  "category": "Fabio Regazzi",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 2776
+}, {
+  "category": "Fabio Regazzi",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 2776
+}, {
+  "category": "Heinz Brand",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 2772
+}, {
+  "category": "Heinz Brand",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 2772
+}, {
+  "category": "Albert Vitali",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 2761
+}, {
+  "category": "Albert Vitali",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 2761
+}, {
+  "category": "Cédric Wermuth",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 2759
+}, {
+  "category": "Cédric Wermuth",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 2759
+}, {
+  "category": "Marianne Streiff-Feller",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 2747
+}, {
+  "category": "Marianne Streiff-Feller",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 2747
+}, {
+  "category": "Roberto Schmidt",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 2708
+}, {
+  "category": "Roberto Schmidt",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 2708
+}, {
+  "category": "Alice Glauser-Zufferey",
+  "position": 0,
+  "value": 90,
+  "idParlemantaire": 2686
+}, {
+  "category": "Alice Glauser-Zufferey",
+  "position": 1,
+  "value": 10,
+  "idParlemantaire": 2686
+}, {
+  "category": "Isabelle Chevalley",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 3604
+}, {
+  "category": "Isabelle Chevalley",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 3604
+}, {
+  "category": "Regine Sauter",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 3103
+}, {
+  "category": "Regine Sauter",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 3103
+}, {
+  "category": "Marco Chiesa",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 3067
+}, {
+  "category": "Marco Chiesa",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 3067
+}, {
+  "category": "Cesla Amarelle",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 3014
+}, {
+  "category": "Cesla Amarelle",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 3014
+}, {
+  "category": "Regula Rytz",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 3000
+}, {
+  "category": "Regula Rytz",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 3000
+}, {
+  "category": "Corrado Pardini",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 2751
+}, {
+  "category": "Corrado Pardini",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 2751
+}, {
+  "category": "Erich von Siebenthal",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 2713
+}, {
+  "category": "Erich von Siebenthal",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 2713
+}, {
+  "category": "Jean-Pierre Grin",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 2688
+}, {
+  "category": "Jean-Pierre Grin",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 2688
+}, {
+  "category": "Jacques Bourgeois",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 2675
+}, {
+  "category": "Jacques Bourgeois",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 2675
+}, {
+  "category": "Ulrich Giezendanner",
+  "position": 0,
+  "value": 89,
+  "idParlemantaire": 2292
+}, {
+  "category": "Ulrich Giezendanner",
+  "position": 1,
+  "value": 11,
+  "idParlemantaire": 2292
+}, {
+  "category": "Jacques Nicolet",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 3089
+}, {
+  "category": "Jacques Nicolet",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 3089
+}, {
+  "category": "Philippe Nantermod",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 3088
+}, {
+  "category": "Philippe Nantermod",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 3088
+}, {
+  "category": "Claude Béglé",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 3060
+}, {
+  "category": "Claude Béglé",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 3060
+}, {
+  "category": "Stefan Müller-Altermatt",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 2771
+}, {
+  "category": "Stefan Müller-Altermatt",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 2771
+}, {
+  "category": "Martin Candinas",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 2770
+}, {
+  "category": "Martin Candinas",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 2770
+}, {
+  "category": "Thomas Hurter",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 2693
+}, {
+  "category": "Thomas Hurter",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 2693
+}, {
+  "category": "Jakob Büchler",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 2588
+}, {
+  "category": "Jakob Büchler",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 2588
+}, {
+  "category": "Kathy Riklin",
+  "position": 0,
+  "value": 88,
+  "idParlemantaire": 2525
+}, {
+  "category": "Kathy Riklin",
+  "position": 1,
+  "value": 12,
+  "idParlemantaire": 2525
+}, {
+  "category": "Hans-Ulrich Bigler",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 3110
+}, {
+  "category": "Hans-Ulrich Bigler",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 3110
+}, {
+  "category": "Bruno Walliser",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 3099
+}, {
+  "category": "Bruno Walliser",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 3099
+}, {
+  "category": "Thomas Burgherr",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 3064
+}, {
+  "category": "Thomas Burgherr",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 3064
+}, {
+  "category": "Martin Landolt",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 2735
+}, {
+  "category": "Martin Landolt",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 2735
+}, {
+  "category": "Christian Wasserfallen",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 2715
+}, {
+  "category": "Christian Wasserfallen",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 2715
+}, {
+  "category": "Lukas Reimann",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 2704
+}, {
+  "category": "Lukas Reimann",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 2704
+}, {
+  "category": "Alfred Heer",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 2690
+}, {
+  "category": "Alfred Heer",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 2690
+}, {
+  "category": "Chantal Galladé",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 2597
+}, {
+  "category": "Chantal Galladé",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 2597
+}, {
+  "category": "Dominique de Buman",
+  "position": 0,
+  "value": 87,
+  "idParlemantaire": 2593
+}, {
+  "category": "Dominique de Buman",
+  "position": 1,
+  "value": 13,
+  "idParlemantaire": 2593
+}, {
+  "category": "Peter Schilliger",
+  "position": 0,
+  "value": 86,
+  "idParlemantaire": 3029
+}, {
+  "category": "Peter Schilliger",
+  "position": 1,
+  "value": 14,
+  "idParlemantaire": 3029
+}, {
+  "category": "Bruno Pezzatti",
+  "position": 0,
+  "value": 86,
+  "idParlemantaire": 2784
+}, {
+  "category": "Bruno Pezzatti",
+  "position": 1,
+  "value": 14,
+  "idParlemantaire": 2784
+}, {
+  "category": "Jacqueline Badran",
+  "position": 0,
+  "value": 86,
+  "idParlemantaire": 2762
+}, {
+  "category": "Jacqueline Badran",
+  "position": 1,
+  "value": 14,
+  "idParlemantaire": 2762
+}, {
+  "category": "Yvette Estermann",
+  "position": 0,
+  "value": 86,
+  "idParlemantaire": 2679
+}, {
+  "category": "Yvette Estermann",
+  "position": 1,
+  "value": 14,
+  "idParlemantaire": 2679
+}, {
+  "category": "Benoît Genecand",
+  "position": 0,
+  "value": 85,
+  "idParlemantaire": 3073
+}, {
+  "category": "Benoît Genecand",
+  "position": 1,
+  "value": 15,
+  "idParlemantaire": 3073
+}, {
+  "category": "Hans-Peter Portmann",
+  "position": 0,
+  "value": 85,
+  "idParlemantaire": 3043
+}, {
+  "category": "Hans-Peter Portmann",
+  "position": 1,
+  "value": 15,
+  "idParlemantaire": 3043
+}, {
+  "category": "Barbara Schmid-Federer",
+  "position": 0,
+  "value": 85,
+  "idParlemantaire": 2707
+}, {
+  "category": "Barbara Schmid-Federer",
+  "position": 1,
+  "value": 15,
+  "idParlemantaire": 2707
+}, {
+  "category": "Andreas Aebi",
+  "position": 0,
+  "value": 85,
+  "idParlemantaire": 2670
+}, {
+  "category": "Andreas Aebi",
+  "position": 1,
+  "value": 15,
+  "idParlemantaire": 2670
+}, {
+  "category": "Jean-François Rime",
+  "position": 0,
+  "value": 85,
+  "idParlemantaire": 2627
+}, {
+  "category": "Jean-François Rime",
+  "position": 1,
+  "value": 15,
+  "idParlemantaire": 2627
+}, {
+  "category": "Walter Müller",
+  "position": 0,
+  "value": 85,
+  "idParlemantaire": 2617
+}, {
+  "category": "Walter Müller",
+  "position": 1,
+  "value": 15,
+  "idParlemantaire": 2617
+}, {
+  "category": "Olivier Feller",
+  "position": 0,
+  "value": 84,
+  "idParlemantaire": 2789
+}, {
+  "category": "Olivier Feller",
+  "position": 1,
+  "value": 16,
+  "idParlemantaire": 2789
+}, {
+  "category": "Pierre-Alain Fridez",
+  "position": 0,
+  "value": 84,
+  "idParlemantaire": 2778
+}, {
+  "category": "Pierre-Alain Fridez",
+  "position": 1,
+  "value": 16,
+  "idParlemantaire": 2778
+}, {
+  "category": "Yves Nidegger",
+  "position": 0,
+  "value": 84,
+  "idParlemantaire": 2701
+}, {
+  "category": "Yves Nidegger",
+  "position": 1,
+  "value": 16,
+  "idParlemantaire": 2701
+}, {
+  "category": "Sebastian Frehner",
+  "position": 0,
+  "value": 83,
+  "idParlemantaire": 2750
+}, {
+  "category": "Sebastian Frehner",
+  "position": 1,
+  "value": 17,
+  "idParlemantaire": 2750
+}, {
+  "category": "Elisabeth Schneider-Schneiter",
+  "position": 0,
+  "value": 83,
+  "idParlemantaire": 2748
+}, {
+  "category": "Elisabeth Schneider-Schneiter",
+  "position": 1,
+  "value": 17,
+  "idParlemantaire": 2748
+}, {
+  "category": "Guillaume Barazzone",
+  "position": 0,
+  "value": 82,
+  "idParlemantaire": 3040
+}, {
+  "category": "Guillaume Barazzone",
+  "position": 1,
+  "value": 18,
+  "idParlemantaire": 3040
+}, {
+  "category": "Lorenz Hess",
+  "position": 0,
+  "value": 82,
+  "idParlemantaire": 2799
+}, {
+  "category": "Lorenz Hess",
+  "position": 1,
+  "value": 18,
+  "idParlemantaire": 2799
+}, {
+  "category": "Roger Köppel",
+  "position": 0,
+  "value": 81,
+  "idParlemantaire": 3082
+}, {
+  "category": "Roger Köppel",
+  "position": 1,
+  "value": 19,
+  "idParlemantaire": 3082
+}, {
+  "category": "Daniel Fässler",
+  "position": 0,
+  "value": 81,
+  "idParlemantaire": 2767
+}, {
+  "category": "Daniel Fässler",
+  "position": 1,
+  "value": 19,
+  "idParlemantaire": 2767
+}, {
+  "category": "Urs Gasche",
+  "position": 0,
+  "value": 81,
+  "idParlemantaire": 2764
+}, {
+  "category": "Urs Gasche",
+  "position": 1,
+  "value": 19,
+  "idParlemantaire": 2764
+}, {
+  "category": "Kurt Fluri",
+  "position": 0,
+  "value": 81,
+  "idParlemantaire": 2594
+}, {
+  "category": "Kurt Fluri",
+  "position": 1,
+  "value": 19,
+  "idParlemantaire": 2594
+}, {
+  "category": "Daniel Jositsch",
+  "position": 0,
+  "value": 80,
+  "idParlemantaire": 2694
+}, {
+  "category": "Daniel Jositsch",
+  "position": 1,
+  "value": 20,
+  "idParlemantaire": 2694
+}, {
+  "category": "Ruedi Noser",
+  "position": 0,
+  "value": 80,
+  "idParlemantaire": 2619
+}, {
+  "category": "Ruedi Noser",
+  "position": 1,
+  "value": 20,
+  "idParlemantaire": 2619
+}, {
+  "category": "Frédéric Borloz",
+  "position": 0,
+  "value": 79,
+  "idParlemantaire": 3061
+}, {
+  "category": "Frédéric Borloz",
+  "position": 1,
+  "value": 21,
+  "idParlemantaire": 3061
+}, {
+  "category": "Martin Bäumle",
+  "position": 0,
+  "value": 79,
+  "idParlemantaire": 2585
+}, {
+  "category": "Martin Bäumle",
+  "position": 1,
+  "value": 21,
+  "idParlemantaire": 2585
+}, {
+  "category": "Gerhard Pfister",
+  "position": 0,
+  "value": 77,
+  "idParlemantaire": 2623
+}, {
+  "category": "Gerhard Pfister",
+  "position": 1,
+  "value": 23,
+  "idParlemantaire": 2623
+}, {
+  "category": "Daniel Brélaz",
+  "position": 0,
+  "value": 77,
+  "idParlemantaire": 2023
+}, {
+  "category": "Daniel Brélaz",
+  "position": 1,
+  "value": 23,
+  "idParlemantaire": 2023
+}, {
+  "category": "Thomas Ammann",
+  "position": 0,
+  "value": 76,
+  "idParlemantaire": 3056
+}, {
+  "category": "Thomas Ammann",
+  "position": 1,
+  "value": 24,
+  "idParlemantaire": 3056
+}, {
+  "category": "Hermann Hess",
+  "position": 0,
+  "value": 75,
+  "idParlemantaire": 3079
+}, {
+  "category": "Hermann Hess",
+  "position": 1,
+  "value": 25,
+  "idParlemantaire": 3079
+}, {
+  "category": "Isabelle Moret",
+  "position": 0,
+  "value": 71,
+  "idParlemantaire": 2660
+}, {
+  "category": "Isabelle Moret",
+  "position": 1,
+  "value": 29,
+  "idParlemantaire": 2660
+}, {
+  "category": "Hans Grunder",
+  "position": 0,
+  "value": 70,
+  "idParlemantaire": 2689
+}, {
+  "category": "Hans Grunder",
+  "position": 1,
+  "value": 30,
+  "idParlemantaire": 2689
+}, {
+  "category": "Doris Fiala",
+  "position": 0,
+  "value": 68,
+  "idParlemantaire": 2680
+}, {
+  "category": "Doris Fiala",
+  "position": 1,
+  "value": 32,
+  "idParlemantaire": 2680
+}, {
+  "category": "Jürg Stahl",
+  "position": 0,
+  "value": 64,
+  "idParlemantaire": 2536
+}, {
+  "category": "Jürg Stahl",
+  "position": 1,
+  "value": 36,
+  "idParlemantaire": 2536
+}, {
+  "category": "Giovanni Merlini",
+  "position": 0,
+  "value": 41,
+  "idParlemantaire": 3042
+}, {
+  "category": "Giovanni Merlini",
+  "position": 1,
+  "value": 59,
+  "idParlemantaire": 3042
+}, {
+  "category": "Christa Markwalder",
+  "position": 0,
+  "value": 24,
+  "idParlemantaire": 2614
+}, {
+  "category": "Christa Markwalder",
+  "position": 1,
+  "value": 76,
+  "idParlemantaire": 2614
+}]

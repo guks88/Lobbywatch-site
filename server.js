@@ -30,6 +30,8 @@ connection.connect(function(error){
     }
 });
 
+
+
 // API's
 
 // Get all Lobbies
@@ -205,7 +207,7 @@ app.get('/get_average_vote_of_lobby', function (req,res) {
     if (affairVoteId != 0) {
         where_query = 'WHERE affairVoteId = "'+affairVoteId+'"';
     }
-    var query = "SELECT count(councillorNumber) as nbreVote, lobbies, councillorVote as vote FROM votes_infos "+where_query+" GROUP BY lobbyId, councillorVote;";
+    var query = "SELECT count(councillorNumber) as nbreVote, lobbyId, lobbies, councillorVote as vote FROM votes_infos "+where_query+" GROUP BY lobbyId, councillorVote;";
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : get_average_vote_of_lobby');
@@ -223,7 +225,7 @@ app.get('/get_average_vote_of_branche', function (req,res) {
     if (affairVoteId != 0) {
         where_query = 'WHERE affairVoteId = "'+affairVoteId+'"';
     }
-    var query = "SELECT count(councillorNumber) as nbreVote, branches, councillorVote as vote FROM votes_infos_branches "+where_query+" GROUP BY brancheId, councillorVote;";
+    var query = "SELECT count(councillorNumber) as nbreVote, brancheId, branches, councillorVote as vote FROM votes_infos_branches "+where_query+" GROUP BY brancheId, councillorVote;";
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : get_average_vote_of_branche');
@@ -313,10 +315,150 @@ app.get('/get_infos_vote_of_lobby_selected', function (req,res) {
 
 // Get all parlamentarians
 app.get('/search_all_parlamentarians',function(req,res){
-    var query = "SELECT id, anzeige_name as parlementaires FROM BD_TB.mv_parlamentarier WHERE rat_id = 1 AND(im_rat_bis IS NULL OR mv_parlamentarier.anzeige_name LIKE '%Steiert%') ORDER BY parlementaires;";
+    var query = "SELECT parlament_number as id, anzeige_name as parlementaires FROM BD_TB.mv_parlamentarier WHERE rat_id = 1 AND(im_rat_bis IS NULL OR mv_parlamentarier.anzeige_name LIKE '%Steiert%') ORDER BY parlementaires;";
     connection.query(query, function (error, rows, fields) {
         if(error){
             console.log('Error in the query : search_all_parlamentarians');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the general average of a vote per political party
+app.get('/get_average_partis', function (req,res) {
+    var query = "SELECT * FROM votes_AvecContre_Parti;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_partis');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the general average of a vote per political party
+app.get('/get_average_infosPartis', function (req,res) {
+    var query = "SELECT * FROM votes_infos_Partis ORDER BY councillorNumber, affairVoteId, idParti;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_infosPartis');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the general average of a vote per lobby
+app.get('/get_average_lobby', function (req,res) {
+    var query = "SELECT * FROM votes_AvecContre_Lobby;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_lobby');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET the general average of a vote per Lobby
+app.get('/get_average_infosLobbies', function (req,res) {
+    var councillorNumber = req.query.councillorNumber;
+    var where_query = '';
+    if (councillorNumber != 0) {
+        where_query = ' WHERE councillorNumber = "'+councillorNumber+'"';
+    }
+    var query = "SELECT * FROM BD_TB.votes_infos"+where_query+" ORDER BY lobbyId;";
+    console.log(query);
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_infosLobbies');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET all councillorNumber
+app.get('/get_councillorNumbers', function (req,res) {
+    var query = "SELECT councillorNumber FROM votes_infos GROUP BY councillorNumber;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_councillorNumbers');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET all councillorNumber
+app.get('/get_councillorNumberVotes', function (req,res) {
+    var query = "SELECT councillorNumber FROM BD_TB.votes GROUP BY councillorNumber;";
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_councillorNumbers');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET infosVotesLobbies of parlamentarian selected
+app.get('/get_average_lobbies_parlementaireSelected', function (req,res) {
+    var parlementaireSelected = req.query.selected;
+    var avecContreSelected = req.query.selected2;
+    var where_query = '';
+    var and_query = '';
+    if (parlementaireSelected != undefined) {
+        where_query = ' WHERE councillorNumber = "'+parlementaireSelected+'"';
+    }
+    if(avecContreSelected != undefined && avecContreSelected != 2){
+        if(avecContreSelected == 0){
+            and_query = ' AND majoriteLobby != councillorVote';
+        }else{
+            and_query = ' AND majoriteLobby = councillorVote';
+        }
+    }
+    var query = "SELECT affairVoteID, titreAffaire, significationOui, significationNon, lobbies, majoriteLobby, councillorVote as voteParlementaire FROM votes_Datatable_Lobbies"+ where_query + and_query +";";
+    console.log(query);
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_lobbies_parlementaireSelected');
+        }else{
+            console.log('Success query!\n');
+            res.end(JSON.stringify(rows));
+        }
+    });
+});
+
+// GET infosVotesPartis of parlamentarian selected
+app.get('/get_average_partis_parlementaireSelected', function (req,res) {
+    var parlementaireSelected = req.query.selected;
+    var avecContreSelected = req.query.selected2;
+    var where_query = '';
+    var and_query = '';
+    if (parlementaireSelected != undefined) {
+        where_query = ' WHERE councillorNumber = "'+parlementaireSelected+'"';
+    }
+    if(avecContreSelected != undefined && avecContreSelected != 2){
+        if(avecContreSelected == 0){
+            and_query = ' AND majoriteParti != Vote';
+        }else{
+            and_query = ' AND majoriteParti = Vote';
+        }
+    }
+    var query = "SELECT affairVoteID, titreAffaire, significationOui, significationNon, parti, majoriteParti, Vote as voteParlementaire FROM votes_Datatable_Partis"+ where_query + and_query +";";
+    console.log(query);
+    connection.query(query, function (error, rows, fields) {
+        if(error){
+            console.log('Error in the query : get_average_partis_parlementaireSelected');
         }else{
             console.log('Success query!\n');
             res.end(JSON.stringify(rows));
