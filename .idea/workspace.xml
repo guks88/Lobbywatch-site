@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2196e59b-9f19-4897-a9f4-d21eddd86ab5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/averageGeneralLobbies.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/averageGeneralPartis.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/averageOfAverageParlamentariansLobbies.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/averageParlamentariansLobbies.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/averageParlamentariansPartis.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/resParlamentariansLobbies.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/resParlamentariansPartis.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/datatable_script_parlementairesLobbies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/datatable_script_parlementairesPartis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vega_script_parlementairesPartis.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/flare.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/lobbies.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/lobbiestest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/contact_me.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/freelancer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jqBootstrapValidation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/test.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/queries_script_parlementairesLobbies.js" afterPath="$PROJECT_DIR$/js/queries_script_parlementairesLobbies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/queries_script_parlementairesPartis.js" afterPath="$PROJECT_DIR$/js/queries_script_parlementairesPartis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vega_script_BranchesEtVotes_AVGBranche.js" afterPath="$PROJECT_DIR$/js/vega_script_BranchesEtVotes_AVGBranche.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vega_script_BranchesEtVotes_General.js" afterPath="$PROJECT_DIR$/js/vega_script_BranchesEtVotes_General.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_AVGLobby.js" afterPath="$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_AVGLobby.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_General.js" afterPath="$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_General.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vega_script_branches.js" afterPath="$PROJECT_DIR$/js/vega_script_branches.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/branches.html" afterPath="$PROJECT_DIR$/pages/branches.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/branchesVotes.html" afterPath="$PROJECT_DIR$/pages/branchesVotes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/enquetes.html" afterPath="$PROJECT_DIR$/pages/enquetes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/lobbies.html" afterPath="$PROJECT_DIR$/pages/lobbies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/lobbiesVotes.html" afterPath="$PROJECT_DIR$/pages/lobbiesVotes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/parlementairesVotesLobbies.html" afterPath="$PROJECT_DIR$/pages/parlementairesVotesLobbies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/parlementairesVotesPartis.html" afterPath="$PROJECT_DIR$/pages/parlementairesVotesPartis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js" afterPath="$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js" />
     </list>
     <ignored path="Lobbywatch-site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,32 +36,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vega_script_parlementairesLobbies.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vega_script_parlementairesLobbies.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="619" column="135" selection-start-line="619" selection-start-column="68" selection-end-line="619" selection-end-column="135" />
+              <caret line="619" column="163" selection-start-line="619" selection-start-column="163" selection-end-line="619" selection-end-column="163" />
               <folding>
                 <element signature="e#52#102#0" expanded="false" />
-                <marker date="1499282705000" expanded="true" signature="10966:10984" ph="..." />
-                <marker date="1499282705000" expanded="true" signature="11331:11349" ph="..." />
-                <marker date="1499282705000" expanded="true" signature="20644:20662" ph="..." />
+                <marker date="1499340716000" expanded="true" signature="10966:10984" ph="..." />
+                <marker date="1499340716000" expanded="true" signature="11331:11349" ph="..." />
+                <marker date="1499340716000" expanded="true" signature="20644:20662" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vega_script_parlementairesPartis.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vega_script_LobbiesEtVotes_General.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_General.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3855">
+              <caret line="257" column="65" selection-start-line="257" selection-start-column="65" selection-end-line="257" selection-end-column="65" />
+              <folding>
+                <marker date="1499283528000" expanded="true" signature="5109:5127" ph="..." />
+                <marker date="1499283528000" expanded="true" signature="11850:11868" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vega_script_parlementairesPartis.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/vega_script_parlementairesPartis.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -161,31 +132,6 @@
             <state relative-caret-position="44">
               <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="branches.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/branches.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lobbies.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/lobbies.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="96" column="136" selection-start-line="96" selection-start-column="136" selection-end-line="96" selection-end-column="136" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -258,7 +204,6 @@
         <option value="$PROJECT_DIR$/js/datatable_script_parlementairesPartis.js" />
         <option value="$PROJECT_DIR$/pages/branches.html" />
         <option value="$PROJECT_DIR$/pages/lobbies.html" />
-        <option value="$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_General.js" />
         <option value="$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_AVGLobby.js" />
         <option value="$PROJECT_DIR$/js/vega_script_BranchesEtVotes_General.js" />
         <option value="$PROJECT_DIR$/js/vega_script_BranchesEtVotes_AVGBranche.js" />
@@ -267,8 +212,9 @@
         <option value="$PROJECT_DIR$/pages/parlementairesVotesLobbies.html" />
         <option value="$PROJECT_DIR$/pages/parlementairesVotesPartis.html" />
         <option value="$PROJECT_DIR$/data/averageOfAverageParlamentariansLobbies.json" />
-        <option value="$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js" />
         <option value="$PROJECT_DIR$/js/vega_script_parlementairesPartis.js" />
+        <option value="$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_General.js" />
+        <option value="$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js" />
       </list>
     </option>
   </component>
@@ -343,20 +289,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lobbywatch-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lobbywatch-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -777,12 +709,12 @@
       <workItem from="1498748309598" duration="5690000" />
       <workItem from="1498822865548" duration="10359000" />
       <workItem from="1498860388834" duration="9463000" />
-      <workItem from="1499175460042" duration="25527000" />
+      <workItem from="1499175460042" duration="26028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328989000" />
+    <option name="totallyTimeSpent" value="329490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
@@ -1049,33 +981,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_General.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
-          <folding>
-            <marker date="1499275308000" expanded="true" signature="5109:5127" ph="..." />
-            <marker date="1499275308000" expanded="true" signature="11837:11855" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vega_script_BranchesEtVotes_General.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
-          <caret line="265" column="77" selection-start-line="265" selection-start-column="77" selection-end-line="265" selection-end-column="77" />
-          <folding>
-            <marker date="1499275401000" expanded="true" signature="5149:5167" ph="..." />
-            <marker date="1499275401000" expanded="true" signature="11892:11910" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,17 +1013,6 @@
         <state relative-caret-position="113">
           <caret line="33" column="80" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="80" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_AVGLobby.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="205" column="65" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
-          <folding>
-            <marker date="1499275369000" expanded="true" signature="11804:11822" ph="..." />
-            <marker date="1499275369000" expanded="true" signature="12265:12283" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,19 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="619" column="135" selection-start-line="619" selection-start-column="68" selection-end-line="619" selection-end-column="135" />
-          <folding>
-            <element signature="e#52#102#0" expanded="false" />
-            <marker date="1499282705000" expanded="true" signature="10966:10984" ph="..." />
-            <marker date="1499282705000" expanded="true" signature="11331:11349" ph="..." />
-            <marker date="1499282705000" expanded="true" signature="20644:20662" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/vega_script_parlementairesPartis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1202,6 +1088,52 @@
             <marker date="1499283206000" expanded="true" signature="10873:10891" ph="..." />
             <marker date="1499283206000" expanded="true" signature="11224:11242" ph="..." />
             <marker date="1499283206000" expanded="true" signature="19263:19281" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vega_script_BranchesEtVotes_General.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="265" column="77" selection-start-line="265" selection-start-column="77" selection-end-line="265" selection-end-column="77" />
+          <folding>
+            <marker date="1499275401000" expanded="true" signature="5149:5167" ph="..." />
+            <marker date="1499275401000" expanded="true" signature="11892:11910" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_General.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3855">
+          <caret line="257" column="65" selection-start-line="257" selection-start-column="65" selection-end-line="257" selection-end-column="65" />
+          <folding>
+            <marker date="1499283528000" expanded="true" signature="5109:5127" ph="..." />
+            <marker date="1499283528000" expanded="true" signature="11850:11868" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vega_script_LobbiesEtVotes_AVGLobby.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="211" column="64" selection-start-line="211" selection-start-column="64" selection-end-line="212" selection-end-column="77" />
+          <folding>
+            <marker date="1499275369000" expanded="true" signature="11804:11822" ph="..." />
+            <marker date="1499275369000" expanded="true" signature="12265:12283" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vega_script_parlementairesLobbies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="619" column="163" selection-start-line="619" selection-start-column="163" selection-end-line="619" selection-end-column="163" />
+          <folding>
+            <element signature="e#52#102#0" expanded="false" />
+            <marker date="1499340716000" expanded="true" signature="10966:10984" ph="..." />
+            <marker date="1499340716000" expanded="true" signature="11331:11349" ph="..." />
+            <marker date="1499340716000" expanded="true" signature="20644:20662" ph="..." />
           </folding>
         </state>
       </provider>

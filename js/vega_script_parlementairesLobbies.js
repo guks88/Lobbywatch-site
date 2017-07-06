@@ -617,7 +617,7 @@ var changeVega = function(councillorNumber){
         spec3.data = tableau;
 
         $('#moyenneGenerale').empty();
-        $('#moyenneGenerale').append('<p style="text-align: center">Proportions des votes en accord ou en contradiction par lobby pour: ' + parlementaire2 + '</p>');
+        $('#moyenneGenerale').append('<p style="text-align: center">Proportions des votes de ' + parlementaire2 + '  en accord ou en contradiction avec ses lobbies</p>');
         $('#hidden').addClass("hidden");
 
         var view = new vega.View(vega.parse(spec3), {
